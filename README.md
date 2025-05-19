@@ -79,6 +79,23 @@ covid19-brasil/
 ├── requirements.txt  # Dependências do projeto
 └── README.md         # Documentação principal do projeto
 ````
+
+## 🛠️ Principais Bibliotecas
+#### - Python (pandas, numpy)
+#### - Jupyter Notebook
+#### - Matplotlib e Seaborn para visualização
+
+## Sobre o autor
+#### Pedro Augusto Alves Brandão — Data Analyst aspirante, apaixonado por transformar dados em decisões estratégicas.
+
+## 📘 Acesse o notebook
+👉 [Análise Covid19 no Brasil](https://colab.research.google.com/drive/1W_cGj3n7Rx-YZIDw2tVTtmnrQK50DpbY?usp=sharing)
+
+## 📄 Licença
+Projeto para uso educacional.
+
+## 🔜 Próximos Passos
+
 ## 💻 Como Executar
 Clone este repositório:
 ````
