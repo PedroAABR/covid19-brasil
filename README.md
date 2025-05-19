@@ -47,6 +47,7 @@ Realizar uma análise exploratória integrada de diferentes bases públicas sobr
 | **Estados com Maior Letalidade** | Algumas UF têm taxas de letalidade desproporcionalmente altas.        |
 | **Correlações**       | Alta vacinação tende a reduzir mortes; mobilidade afeta dinâmica.       |
 
+Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
 ## 🧠 Conclusões Gerais
 #### - A vacinação em massa teve efeito visível na redução da mortalidade.
 
