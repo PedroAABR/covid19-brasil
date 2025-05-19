@@ -48,15 +48,15 @@ Realizar uma análise exploratória integrada de diferentes bases públicas sobr
 | **Correlações**       | Alta vacinação tende a reduzir mortes; mobilidade afeta dinâmica.       |
 
 ## 🧠 Conclusões Gerais
-A vacinação em massa teve efeito visível na redução da mortalidade.
+#### - A vacinação em massa teve efeito visível na redução da mortalidade.
 
-Estados apresentaram variações significativas nos indicadores, sugerindo desigualdade regional.
+#### - Estados apresentaram variações significativas nos indicadores, sugerindo desigualdade regional.
 
-Houve momentos críticos com alta ocupação hospitalar e excesso de mortalidade.
+#### - Houve momentos críticos com alta ocupação hospitalar e excesso de mortalidade.
 
-A mobilidade urbana respondeu diretamente às medidas de contenção.
+#### - A mobilidade urbana respondeu diretamente às medidas de contenção.
 
-A análise integrada de dados de diferentes fontes enriquece o entendimento da crise sanitária.
+#### - A análise integrada de dados de diferentes fontes enriquece o entendimento da crise sanitária.
 
 ## 🔗 Fontes dos Dados
 Our World in Data (OWID)
