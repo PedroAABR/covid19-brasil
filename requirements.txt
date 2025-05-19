@@ -1,1 +1,19 @@
+# Manipulação e análise de dados
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualização de dados
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.21.0  # Se for usar visualizações interativas
+
+# Acesso a dados via API ou scraping
+requests==2.31.0
+
+# Interface web (opcional, caso vá usar Streamlit ou Dash)
+streamlit==1.34.0  # Se for transformar a análise em app
+
+# Jupyter Notebook (para ambiente local)
+notebook==7.1.3
+ipython==8.24.0
 
