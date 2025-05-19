@@ -70,15 +70,13 @@ Google Mobility Reports
 Cartórios de Registro Civil
 
 ## 📁 Estrutura do Projeto
-graphql
-Copiar
-Editar
+````
 covid19-brasil-analysis/
 ├── data/                  # Arquivos CSV com os dados brutos
 ├── notebooks/             # Jupyter Notebook com análises e visualizações
 ├── images/                # Gráficos exportados (opcional)
 └── README.md              # Documentação do projeto
-
+````
 ## 💻 Como Executar
 Clone este repositório:
 
