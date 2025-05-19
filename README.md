@@ -112,7 +112,7 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [`LICENSE`](./L
 ## 💻 Como Executar
 Clone este repositório:
 ````
-git clone https://github.com/seu-usuario/covid19-brasil-analysis.git
+git clone https://github.com/PedroAABR/covid19-brasil-analysis.git
 ````
 Instale as dependências (recomenda-se uso do Google Colab):
 
