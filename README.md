@@ -50,17 +50,15 @@ Realizar uma análise exploratória integrada de diferentes bases públicas sobr
 | **Estados com Maior Letalidade** | Algumas UF têm taxas de letalidade desproporcionalmente altas.        |
 | **Correlações**       | Alta vacinação tende a reduzir mortes; mobilidade afeta dinâmica.       |
 
-Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
+
+📖 Veja a análise completa em [`ANALYSIS.md`](./ANALYSIS.md)
 ## 🧠 Conclusões Gerais
-#### - A vacinação em massa teve efeito visível na redução da mortalidade.
+- 💉 A vacinação em massa teve impacto positivo na redução da mortalidade.
+- 🏥 Houve períodos críticos de ocupação hospitalar e excesso de mortes.
+- 🌍 A mobilidade urbana foi fortemente impactada por medidas de contenção.
+- 📊 Análises integradas de múltiplas fontes oferecem uma visão mais robusta e contextualizada da crise sanitária.
+- 🌎 Disparidades regionais evidenciam desigualdade no enfrentamento da pandemia.
 
-#### - Estados apresentaram variações significativas nos indicadores, sugerindo desigualdade regional.
-
-#### - Houve momentos críticos com alta ocupação hospitalar e excesso de mortalidade.
-
-#### - A mobilidade urbana respondeu diretamente às medidas de contenção.
-
-#### - A análise integrada de dados de diferentes fontes enriquece o entendimento da crise sanitária.
 
 ## 🔗 Fontes dos Dados
 [Our World in Data (OWID)](https://github.com/owid/covid-19-data/tree/master/public/data)
@@ -85,11 +83,16 @@ covid19-brasil/
 
 ## 🛠️ Principais Bibliotecas
 #### - Python (pandas, numpy)
-#### - Jupyter Notebook
-#### - Matplotlib e Seaborn para visualização
 
-## Sobre o autor
-#### Pedro Augusto Alves Brandão — Data Analyst aspirante, apaixonado por transformar dados em decisões estratégicas.
+#### - Jupyter Notebook
+
+#### - Matplotlib & Seaborn para visualização
+
+#### - Google Colab para execução na nuvem
+## 👨‍💻 Sobre o Autor
+#### Pedro Augusto Alves Brandão
+Aspirante a Cientista de Dados, apaixonado por transformar dados em decisões estratégicas.
+📫 LinkedIn | GitHub
 
 ## 📘 Acesse o notebook
 👉 [Análise Covid19 no Brasil](https://colab.research.google.com/drive/1W_cGj3n7Rx-YZIDw2tVTtmnrQK50DpbY?usp=sharing)
