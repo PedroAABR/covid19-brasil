@@ -2,12 +2,13 @@
 Análise aprofundada da pandemia de COVID-19 no Brasil, utilizando múltiplas fontes de dados para compreender a evolução de casos, óbitos, vacinação, mobilidade urbana, ocupação hospitalar e outros indicadores relevantes.
 
 ## 🎯 Objetivo
+
 Realizar uma análise exploratória integrada de diferentes bases públicas sobre a COVID-19 no Brasil, com o intuito de gerar insights sobre a dinâmica da pandemia, avaliar impactos da vacinação, subnotificação, mobilidade urbana e capacidade hospitalar.
 
 ## 🔍 O que foi feito
 ### Leitura e limpeza de diversos datasets:
 
-Our World in Data (casos, óbitos, vacinação)
+#### Our World in Data (casos, óbitos, vacinação)
 
 Brasil.IO (casos e óbitos por estado)
 
@@ -23,7 +24,7 @@ Remoção de colunas redundantes ou irrelevantes.
 
 Unificação e concatenação de dados por ano.
 
-Cálculo de métricas como:
+### Cálculo de métricas como:
 
 Média móvel de casos/mortes
 
@@ -35,7 +36,7 @@ Taxa de letalidade por estado
 
 Geração de visualizações descritivas e analíticas.
 
-📈 Principais Insights
+## 📈 Principais Insights
 Tema	Insight
 Casos e Mortes	Picos claros durante ondas da pandemia; mortalidade acompanha tendência.
 Vacinação	Início da vacinação coincide com queda nas mortes.
@@ -45,7 +46,7 @@ Excesso de Mortalidade	2020 apresentou excesso de óbitos significativo em compa
 Estados com maior letalidade	Algumas UF têm taxas de letalidade desproporcionalmente altas.
 Correlações	Alta vacinação tende a reduzir mortes; mobilidade afeta dinâmica.
 
-🧠 Conclusões Gerais
+## 🧠 Conclusões Gerais
 A vacinação em massa teve efeito visível na redução da mortalidade.
 
 Estados apresentaram variações significativas nos indicadores, sugerindo desigualdade regional.
@@ -56,7 +57,7 @@ A mobilidade urbana respondeu diretamente às medidas de contenção.
 
 A análise integrada de dados de diferentes fontes enriquece o entendimento da crise sanitária.
 
-🔗 Fontes dos Dados
+## 🔗 Fontes dos Dados
 Our World in Data (OWID)
 
 Brasil.IO
@@ -67,7 +68,7 @@ Google Mobility Reports
 
 Cartórios de Registro Civil
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 graphql
 Copiar
 Editar
@@ -76,7 +77,8 @@ covid19-brasil-analysis/
 ├── notebooks/             # Jupyter Notebook com análises e visualizações
 ├── images/                # Gráficos exportados (opcional)
 └── README.md              # Documentação do projeto
-💻 Como Executar
+
+## 💻 Como Executar
 Clone este repositório:
 
 bash
