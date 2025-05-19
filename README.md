@@ -72,12 +72,12 @@ Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
 ## 📁 Estrutura do Projeto
 ````
 covid19-brasil/
-├── data/                  # Arquivos CSV com os dados brutos
-├── notebooks/             # Jupyter Notebook com análises e visualizações
-├── images/                # Gráficos exportados
-├── ANALYSIS.md    # Análise detalhada com insights e interpretações
+├── data/             # Arquivos CSV com os dados brutos
+├── notebooks/        # Jupyter Notebook com análises e visualizações
+├── images/           # Gráficos exportados
+├── ANALYSIS.md       # Análise detalhada com insights e interpretações
 ├── requirements.txt  # Dependências do projeto
-└── README.md      # Documentação principal do projeto
+└── README.md         # Documentação principal do projeto
 ````
 ## 💻 Como Executar
 Clone este repositório:
