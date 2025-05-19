@@ -59,15 +59,14 @@ Realizar uma análise exploratória integrada de diferentes bases públicas sobr
 #### - A análise integrada de dados de diferentes fontes enriquece o entendimento da crise sanitária.
 
 ## 🔗 Fontes dos Dados
-Our World in Data (OWID)
+[Our World in Data (OWID)](https://github.com/owid/covid-19-data/tree/master/public/data)
 
-Brasil.IO
+[Brasil.IO](https://brasil.io/dataset/covid19)
 
-OpenDataSUS
+[OpenDataSUS](https://opendatasus.saude.gov.br/dataset/registro-de-ocupacao-hospitalar-covid-19)
 
-Google Mobility Reports
+[Google Mobility Reports](https://www.google.com/covid19/mobility/)
 
-Cartórios de Registro Civil
 
 ## 📁 Estrutura do Projeto
 ````
