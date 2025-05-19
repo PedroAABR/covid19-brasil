@@ -1,11 +1,11 @@
 # 🦠 Análise Exploratória da COVID-19 no Brasil
 Análise aprofundada da pandemia de COVID-19 no Brasil, utilizando múltiplas fontes de dados para compreender a evolução de casos, óbitos, vacinação, mobilidade urbana, ocupação hospitalar e outros indicadores relevantes.
 
-🎯 Objetivo
+## 🎯 Objetivo
 Realizar uma análise exploratória integrada de diferentes bases públicas sobre a COVID-19 no Brasil, com o intuito de gerar insights sobre a dinâmica da pandemia, avaliar impactos da vacinação, subnotificação, mobilidade urbana e capacidade hospitalar.
 
-🔍 O que foi feito
-Leitura e limpeza de diversos datasets:
+## 🔍 O que foi feito
+### Leitura e limpeza de diversos datasets:
 
 Our World in Data (casos, óbitos, vacinação)
 
