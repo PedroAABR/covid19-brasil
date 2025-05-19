@@ -37,14 +37,15 @@ Realizar uma análise exploratória integrada de diferentes bases públicas sobr
 - Geração de visualizações descritivas e analíticas.
 
 ## 📈 Principais Insights
-Tema	Insight
-Casos e Mortes	Picos claros durante ondas da pandemia; mortalidade acompanha tendência.
-Vacinação	Início da vacinação coincide com queda nas mortes.
-Ocupação Hospitalar	Alta ocupação de UTIs em momentos críticos da pandemia.
-Mobilidade	Queda acentuada em locais de trabalho durante picos; mobilidade impactada.
-Excesso de Mortalidade	2020 apresentou excesso de óbitos significativo em comparação a 2019.
-Estados com maior letalidade	Algumas UF têm taxas de letalidade desproporcionalmente altas.
-Correlações	Alta vacinação tende a reduzir mortes; mobilidade afeta dinâmica.
+| Dimensão              | Insight                                                                 |
+|-----------------------|-------------------------------------------------------------------------|
+| **Casos e Mortes**    | Picos claros durante ondas da pandemia; mortalidade acompanha tendência.|
+| **Vacinação**         | Início da vacinação coincide com queda nas mortes.                      |
+| **Ocupação Hospitalar** | Alta ocupação de UTIs em momentos críticos da pandemia.                |
+| **Mobilidade**        | Queda acentuada em locais de trabalho durante picos; mobilidade impactada. |
+| **Excesso de Mortalidade** | 2020 apresentou excesso de óbitos significativo em comparação a 2019.   |
+| **Estados com Maior Letalidade** | Algumas UF têm taxas de letalidade desproporcionalmente altas.        |
+| **Correlações**       | Alta vacinação tende a reduzir mortes; mobilidade afeta dinâmica.       |
 
 ## 🧠 Conclusões Gerais
 A vacinação em massa teve efeito visível na redução da mortalidade.
