@@ -12,29 +12,29 @@ Realizar uma análise exploratória integrada de diferentes bases públicas sobr
 
 - Brasil.IO (casos e óbitos por estado)
 
-OpenDataSUS (ocupação hospitalar)
+- OpenDataSUS (ocupação hospitalar)
 
-Google Mobility Reports (mobilidade urbana)
+- Google Mobility Reports (mobilidade urbana)
 
-Cartórios (excesso de mortalidade)
+- Cartórios (excesso de mortalidade)
 
-Padronização e tratamento de datas, colunas e índices.
+- Padronização e tratamento de datas, colunas e índices.
 
-Remoção de colunas redundantes ou irrelevantes.
+- Remoção de colunas redundantes ou irrelevantes.
 
-Unificação e concatenação de dados por ano.
+- Unificação e concatenação de dados por ano.
 
 ### Cálculo de métricas como:
 
-Média móvel de casos/mortes
+- Média móvel de casos/mortes
 
-Excesso de mortalidade
+- Excesso de mortalidade
 
-Ocupação hospitalar média
+- Ocupação hospitalar média
 
-Taxa de letalidade por estado
+- Taxa de letalidade por estado
 
-Geração de visualizações descritivas e analíticas.
+- Geração de visualizações descritivas e analíticas.
 
 ## 📈 Principais Insights
 Tema	Insight
