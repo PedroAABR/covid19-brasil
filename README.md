@@ -99,7 +99,7 @@ Aspirante a Cientista de Dados, apaixonado por transformar dados em decisões es
 👉 [Análise Covid19 no Brasil](https://colab.research.google.com/drive/1W_cGj3n7Rx-YZIDw2tVTtmnrQK50DpbY?usp=sharing)
 
 ## 📄 Licença
-Projeto para uso educacional.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [`LICENSE`](./LICENSE) para mais detalhes.
 
 ## 🔜 Próximos Passos
  Implementar uma versão interativa com Streamlit
