@@ -95,7 +95,10 @@ covid19-brasil/
 Projeto para uso educacional.
 
 ## 🔜 Próximos Passos
-
+- Implementar uma versão interativa com [Streamlit](https://streamlit.io/)
+- Utilizar [Plotly](https://plotly.com/) para gráficos mais dinâmicos
+- Aplicar modelagem preditiva com aprendizado de máquina
+- Disponibilizar um dashboard para visualização pública
 ## 💻 Como Executar
 Clone este repositório:
 ````
