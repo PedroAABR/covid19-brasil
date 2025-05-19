@@ -76,7 +76,8 @@ Realizar uma análise exploratória integrada de diferentes bases públicas sobr
 covid19-brasil/
 ├── data/             # Arquivos CSV com os dados brutos
 ├── notebooks/        # Jupyter Notebook com análises e visualizações
-├── images/           # Gráficos exportados
+├── reports/          # Gráficos exportados
+├── scripts/          # Scripts auxiliares (limpeza, processamento, gráficos)
 ├── ANALYSIS.md       # Análise detalhada com insights e interpretações
 ├── requirements.txt  # Dependências do projeto
 └── README.md         # Documentação principal do projeto
