@@ -8,38 +8,36 @@ Análise aprofundada da pandemia de COVID-19 no Brasil, utilizando múltiplas fo
 
 ## 🎯 Objetivo
 
-Realizar uma análise exploratória integrada de diferentes bases públicas sobre a COVID-19 no Brasil, com o intuito de gerar insights sobre a dinâmica da pandemia, avaliar impactos da vacinação, subnotificação, mobilidade urbana e capacidade hospitalar.
+Realizar uma análise exploratória integrada de diferentes bases públicas sobre a COVID-19 no Brasil com o intuito de:
+
+- Gerar insights sobre a dinâmica da pandemia;
+- Avaliar os impactos da vacinação;
+- Investigar possíveis subnotificações;
+- Correlacionar mobilidade urbana com a evolução dos casos;
+- Analisar a capacidade hospitalar ao longo do tempo.
+
 
 ## 🔍 O que foi feito
-### Leitura e limpeza de diversos datasets:
 
-- Our World in Data (casos, óbitos, vacinação)
+- 📥 Leitura e limpeza de datasets públicos:
+  - Our World in Data (casos, óbitos, vacinação)
+  - Brasil.IO (casos e óbitos por estado)
+  - OpenDataSUS (ocupação hospitalar)
+  - Google Mobility Reports (mobilidade urbana)
+  - Cartórios (excesso de mortalidade)
 
-- Brasil.IO (casos e óbitos por estado)
+- 🧹 Tratamento e padronização:
+  - Conversão de datas, renomeação e unificação de colunas
+  - Exclusão de colunas redundantes
+  - Junção de dados multianuais
 
-- OpenDataSUS (ocupação hospitalar)
+- 📊 Cálculo de métricas:
+  - Média móvel de casos e mortes
+  - Excesso de mortalidade
+  - Ocupação média de UTIs
+  - Taxa de letalidade por estado
 
-- Google Mobility Reports (mobilidade urbana)
-
-- Cartórios (excesso de mortalidade)
-
-- Padronização e tratamento de datas, colunas e índices.
-
-- Remoção de colunas redundantes ou irrelevantes.
-
-- Unificação e concatenação de dados por ano.
-
-### Cálculo de métricas como:
-
-- Média móvel de casos/mortes
-
-- Excesso de mortalidade
-
-- Ocupação hospitalar média
-
-- Taxa de letalidade por estado
-
-- Geração de visualizações descritivas e analíticas.
+- 📈 Visualizações descritivas e analíticas
 
 ## 📈 Principais Insights
 | Dimensão              | Insight                                                                 |
