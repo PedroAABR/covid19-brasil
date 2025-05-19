@@ -92,7 +92,8 @@ covid19-brasil/
 ## 👨‍💻 Sobre o Autor
 #### Pedro Augusto Alves Brandão
 Aspirante a Cientista de Dados, apaixonado por transformar dados em decisões estratégicas.
-📫 LinkedIn | GitHub
+
+📫 [LinkedIn](https://www.linkedin.com/in/pedroaugustoabrandao/) | [GitHub](https://github.com/PedroAABR)
 
 ## 📘 Acesse o notebook
 👉 [Análise Covid19 no Brasil](https://colab.research.google.com/drive/1W_cGj3n7Rx-YZIDw2tVTtmnrQK50DpbY?usp=sharing)
