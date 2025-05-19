@@ -102,13 +102,12 @@ Aspirante a Cientista de Dados, apaixonado por transformar dados em decisões es
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [`LICENSE`](./LICENSE) para mais detalhes.
 
 ## 🔜 Próximos Passos
- Implementar uma versão interativa com Streamlit
 
- Utilizar Plotly para visualizações dinâmicas
+- [ ] Implementar uma versão interativa com **Streamlit**
+- [ ] Utilizar **Plotly** para visualizações dinâmicas
+- [ ] Aplicar modelagem preditiva com **Machine Learning**
+- [ ] Disponibilizar um **dashboard público**
 
- Aplicar modelagem preditiva com Machine Learning
-
- Disponibilizar dashboard público
 ## 💻 Como Executar
 Clone este repositório:
 ````
