@@ -8,9 +8,9 @@ Realizar uma análise exploratória integrada de diferentes bases públicas sobr
 ## 🔍 O que foi feito
 ### Leitura e limpeza de diversos datasets:
 
-#### Our World in Data (casos, óbitos, vacinação)
+- Our World in Data (casos, óbitos, vacinação)
 
-Brasil.IO (casos e óbitos por estado)
+- Brasil.IO (casos e óbitos por estado)
 
 OpenDataSUS (ocupação hospitalar)
 
