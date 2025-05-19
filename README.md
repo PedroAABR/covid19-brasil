@@ -79,20 +79,18 @@ covid19-brasil-analysis/
 ````
 ## 💻 Como Executar
 Clone este repositório:
-
-bash
-Copiar
-Editar
+````
 git clone https://github.com/seu-usuario/covid19-brasil-analysis.git
+````
 Instale as dependências (recomenda-se uso do Google Colab):
 
-pandas
+- pandas
 
-matplotlib
+- matplotlib
 
-seaborn
+- seaborn
 
-numpy
+- numpy
 
 Execute o notebook principal no Colab para reproduzir as análises.
 
