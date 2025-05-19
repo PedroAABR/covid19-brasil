@@ -1,4 +1,9 @@
 # 🦠 Análise Exploratória da COVID-19 no Brasil
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/seu-usuario/covid19-brasil-analysis/blob/main/notebooks/covid19_analysis.ipynb)
+
 Análise aprofundada da pandemia de COVID-19 no Brasil, utilizando múltiplas fontes de dados para compreender a evolução de casos, óbitos, vacinação, mobilidade urbana, ocupação hospitalar e outros indicadores relevantes.
 
 ## 🎯 Objetivo
@@ -95,10 +100,13 @@ covid19-brasil/
 Projeto para uso educacional.
 
 ## 🔜 Próximos Passos
-- Implementar uma versão interativa com [Streamlit](https://streamlit.io/)
-- Utilizar [Plotly](https://plotly.com/) para gráficos mais dinâmicos
-- Aplicar modelagem preditiva com aprendizado de máquina
-- Disponibilizar um dashboard para visualização pública
+ Implementar uma versão interativa com Streamlit
+
+ Utilizar Plotly para visualizações dinâmicas
+
+ Aplicar modelagem preditiva com Machine Learning
+
+ Disponibilizar dashboard público
 ## 💻 Como Executar
 Clone este repositório:
 ````
