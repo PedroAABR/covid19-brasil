@@ -71,7 +71,7 @@ Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
 
 ## 📁 Estrutura do Projeto
 ````
-covid19-brasil-analysis/
+covid19-brasil/
 ├── data/                  # Arquivos CSV com os dados brutos
 ├── notebooks/             # Jupyter Notebook com análises e visualizações
 ├── images/                # Gráficos exportados (opcional)
