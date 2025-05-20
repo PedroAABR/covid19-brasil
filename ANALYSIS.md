@@ -13,20 +13,23 @@ Foi gerado um gráfico de linhas com as séries temporais:
 A suavização tem como objetivo reduzir ruídos de variações diárias e destacar tendências consistentes.
 
 ## 📈 Principais Insights
-1. Múltiplas Ondas da Pandemia
+1. **Múltiplas Ondas da Pandemia**
 É possível observar claramente três grandes ondas de infecção, com seus respectivos picos de novos casos e mortes.
 
    - A segunda onda (início de 2021) foi a mais letal, coincidente com a variante Gama.
 
    - A terceira onda (início de 2022) teve alto número de casos, mas menor letalidade, associada à variante Ômicron.
 
-4. Defasagem entre Casos e Mortes
+4. **Defasagem entre Casos e Mortes**
+   
 Existe um atraso de alguns dias a semanas entre o pico de casos e o pico de mortes, refletindo o tempo de progressão da doença.
 
-5. Efeito da Vacinação
+5. **Efeito da Vacinação**
+   
 A partir de meados de 2021, observa-se uma desaceleração clara na curva de mortes, mesmo com novos aumentos de casos — sugerindo efeito positivo da vacinação em massa.
 
-6. Estabilização no Final do Período
+6. **Estabilização no Final do Período**
+   
 As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmico com vacinação, imunidade coletiva e maior preparo do sistema de saúde.
 
 ## 🧠 Conclusões Gerais
