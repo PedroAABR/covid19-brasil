@@ -1,1 +1,1 @@
-<img src="Evolução de Casos e Mortes no Brasil.png"/>
+<img src="reports/Evolução de Casos e Mortes no Brasil.png"/>
