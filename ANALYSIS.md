@@ -9,6 +9,7 @@ Foi gerado um gráfico de linhas utilizando a biblioteca Seaborn para visualizar
 **new_cases_smoothed:** número de novos casos suavizados por média móvel;
 
 **new_deaths_smoothed:** número de novas mortes suavizadas por média móvel.
+
 A suavização permite reduzir a variação diária e destacar tendências mais claras ao longo do tempo.
 
 ## 📈 Principais Insights
