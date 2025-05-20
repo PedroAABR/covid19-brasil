@@ -42,6 +42,6 @@ As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmi
 
 - A similaridade entre as curvas de casos e mortes reafirma a necessidade de medidas preventivas em estágios iniciais das ondas.
 
-# 📊 Pessoas Totalmente Vacinadas por 100 Habitantes
-
+# 📊 Evolução da Vacinação no Brasil
+<sub>(Pessoas Totalmente Vacinadas por 100 Habitantes)</sub>
 <img src="reports/Pessoas Totalmente Vacinadas por 100 habitantes.png"/>
