@@ -13,7 +13,7 @@ Foi gerado um gráfico de linhas com as séries temporais:
 A suavização tem como objetivo reduzir ruídos de variações diárias e destacar tendências consistentes.
 
 ## 📈 Principais Insights
-1. **Múltiplas Ondas da Pandemia:**
+1. **Múltiplas Ondas da Pandemia**
    
 É possível observar claramente três grandes ondas de infecção, com seus respectivos picos de novos casos e mortes.
 
