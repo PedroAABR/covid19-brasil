@@ -72,4 +72,12 @@ Foram tratados dados ausentes e interpoladas lacunas visíveis para manter a vis
 
 - A curva parece interrompida após o início de 2023, indicando que os dados deixaram de ser atualizados ou passaram a ser consolidados de outra forma.
 
+## 🧠 Conclusões Gerais
+- A campanha de vacinação brasileira alcançou alta cobertura vacinal em tempo relativamente curto, especialmente no segundo semestre de 2021.
+
+- A adesão da população e a distribuição nacional contribuíram significativamente para a redução dos casos e mortes, como observado em análises anteriores.
+
+- A presença de falhas na atualização dos dados evidencia a necessidade de sistemas de monitoramento confiáveis em contextos de emergência sanitária.
+
+- A ausência de dados atualizados em 2023 compromete o acompanhamento contínuo da vacinação — uma fragilidade recorrente em bases públicas durante crises.
 
