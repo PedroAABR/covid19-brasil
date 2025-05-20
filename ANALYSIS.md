@@ -13,11 +13,21 @@ Foi gerado um gráfico de linhas com as séries temporais:
 A suavização tem como objetivo reduzir ruídos de variações diárias e destacar tendências consistentes.
 
 ## 📈 Principais Insights
-É possível identificar picos distintos de novos casos e mortes ao longo do tempo, indicando diferentes ondas da pandemia.
+1. Múltiplas Ondas da Pandemia
+É possível observar claramente três grandes ondas de infecção, com seus respectivos picos de novos casos e mortes.
 
-As curvas de novos casos e novas mortes apresentam um comportamento semelhante, com um leve atraso entre os picos de casos e os picos de mortes, o que é esperado devido ao tempo de progressão da doença.
+A segunda onda (início de 2021) foi a mais letal, coincidente com a variante Gama.
 
-Em certos períodos, observa-se uma diminuição progressiva tanto dos casos quanto das mortes, o que pode estar associado a avanços na vacinação e medidas de controle.
+A terceira onda (início de 2022) teve alto número de casos, mas menor letalidade, associada à variante Ômicron.
+
+Defasagem entre Casos e Mortes
+Existe um atraso de alguns dias a semanas entre o pico de casos e o pico de mortes, refletindo o tempo de progressão da doença.
+
+Efeito da Vacinação
+A partir de meados de 2021, observa-se uma desaceleração clara na curva de mortes, mesmo com novos aumentos de casos — sugerindo efeito positivo da vacinação em massa.
+
+Estabilização no Final do Período
+As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmico com vacinação, imunidade coletiva e maior preparo do sistema de saúde.
 
 ## 🧠 Conclusões Gerais
 O gráfico evidencia que o Brasil passou por diversas fases críticas da pandemia, com momentos de agravamento e posterior recuo.
