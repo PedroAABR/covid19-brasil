@@ -43,5 +43,33 @@ As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmi
 - A similaridade entre as curvas de casos e mortes reafirma a necessidade de medidas preventivas em estágios iniciais das ondas.
 
 # 📊 Evolução da Vacinação no Brasil
-<sub>(Pessoas Totalmente Vacinadas por 100 Habitantes)</sub>
+
 <img src="reports/Pessoas Totalmente Vacinadas por 100 habitantes.png"/>
+
+🔍 O que foi feito
+Foi construído um gráfico de linha com a métrica:
+
+- **people_fully_vaccinated_per_hundred:** representa o número de pessoas com o esquema vacinal completo a cada 100 habitantes, equivalente ao percentual da população totalmente vacinada.
+
+Foram tratados dados ausentes e interpoladas lacunas visíveis para manter a visualização consistente sempre que possível, sem comprometer a integridade da análise.
+
+📈 Principais Insights
+1. **Início e Aceleração da Vacinação**
+
+- A vacinação começou efetivamente em meados de janeiro de 2021, com crescimento lento nos primeiros meses.
+
+- A partir do segundo semestre de 2021, observa-se uma aceleração significativa na curva de vacinação.
+
+2. **Alta Cobertura Vacinal em 2022**
+
+- O percentual de pessoas totalmente vacinadas ultrapassou 80% da população ao final de 2022 — um dado relevante considerando o tamanho populacional do Brasil.
+
+3. **Falhas e Lacunas nos Dados**
+
+- A série apresenta interrupções e valores ausentes frequentes a partir de 2022, especialmente no ano de 2023, possivelmente por falhas de reporte nos repositórios oficiais.
+
+4. **Fim da Atualização**
+
+- A curva parece interrompida após o início de 2023, indicando que os dados deixaram de ser atualizados ou passaram a ser consolidados de outra forma.
+
+
