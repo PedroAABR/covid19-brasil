@@ -44,4 +44,4 @@ As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmi
 
 # 📊 Pessoas Totalmente Vacinadas por 100 Habitantes
 
-<img src="reports/Pessoas Totalmente Vacinadas por 100 Habitantes.png" width="800"/>
+<img src="reports/Pessoas Totalmente Vacinadas por 100 habitantes.png"/>
