@@ -34,8 +34,10 @@ A partir de meados de 2021, observa-se uma desaceleração clara na curva de mor
 As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmico com vacinação, imunidade coletiva e maior preparo do sistema de saúde.
 
 ## 🧠 Conclusões Gerais
-O gráfico evidencia que o Brasil passou por diversas fases críticas da pandemia, com momentos de agravamento e posterior recuo.
+- O Brasil enfrentou momentos críticos ao longo da pandemia, refletidos em picos sucessivos de infecção e mortalidade.
 
-A análise temporal é fundamental para compreender o impacto das políticas públicas e o comportamento da população ao longo da crise sanitária.
+- A análise temporal evidencia a importância de políticas públicas, vacinação e intervenções precoces.
 
-A semelhança entre as curvas reforça a correlação entre o aumento de infecções e os óbitos subsequentes, e destaca a importância de ações preventivas para conter novas ondas.
+- O impacto das variantes é perceptível na variação entre letalidade e contágio.
+
+- A similaridade entre as curvas de casos e mortes reafirma a necessidade de medidas preventivas em estágios iniciais das ondas.
