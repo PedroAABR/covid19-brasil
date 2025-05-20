@@ -1,4 +1,8 @@
 # 📊 Evolução de Casos e Mortes no Brasil
+
+<img src="reports/Evolução de Casos e Mortes no Brasil.png" width="800"/>
+
+
 ## 🔍 O que foi feito
 Foi gerado um gráfico de linhas utilizando a biblioteca Seaborn para visualizar a evolução temporal da pandemia de COVID-19 no Brasil. As séries temporais utilizadas foram:
 
@@ -20,7 +24,3 @@ O gráfico evidencia que o Brasil passou por diversas fases críticas da pandemi
 A análise temporal é fundamental para compreender o impacto das políticas públicas e o comportamento da população ao longo da crise sanitária.
 
 A semelhança entre as curvas reforça a correlação entre o aumento de infecções e os óbitos subsequentes, e destaca a importância de ações preventivas para conter novas ondas.
-
-
-
-<img src="reports/Evolução de Casos e Mortes no Brasil.png" width="800"/>
