@@ -46,14 +46,14 @@ As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmi
 
 <img src="reports/Pessoas Totalmente Vacinadas por 100 habitantes.png"/>
 
-🔍 O que foi feito
+# 🔍 O que foi feito
 Foi construído um gráfico de linha com a métrica:
 
 - **people_fully_vaccinated_per_hundred:** representa o número de pessoas com o esquema vacinal completo a cada 100 habitantes, equivalente ao percentual da população totalmente vacinada.
 
 Foram tratados dados ausentes e interpoladas lacunas visíveis para manter a visualização consistente sempre que possível, sem comprometer a integridade da análise.
 
-📈 Principais Insights
+# 📈 Principais Insights
 1. **Início e Aceleração da Vacinação**
 
 - A vacinação começou efetivamente em meados de janeiro de 2021, com crescimento lento nos primeiros meses.
