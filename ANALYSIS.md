@@ -41,3 +41,7 @@ As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmi
 - O impacto das variantes é perceptível na variação entre letalidade e contágio.
 
 - A similaridade entre as curvas de casos e mortes reafirma a necessidade de medidas preventivas em estágios iniciais das ondas.
+
+# 📊 Pessoas Totalmente Vacinadas por 100 Habitantes
+
+<img src="reports/Pessoas Totalmente Vacinadas por 100 Habitantes.png" width="800"/>
