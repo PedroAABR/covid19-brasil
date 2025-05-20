@@ -16,9 +16,9 @@ A suavização tem como objetivo reduzir ruídos de variações diárias e desta
 1. Múltiplas Ondas da Pandemia
 É possível observar claramente três grandes ondas de infecção, com seus respectivos picos de novos casos e mortes.
 
-2. A segunda onda (início de 2021) foi a mais letal, coincidente com a variante Gama.
+   - A segunda onda (início de 2021) foi a mais letal, coincidente com a variante Gama.
 
-3. A terceira onda (início de 2022) teve alto número de casos, mas menor letalidade, associada à variante Ômicron.
+   - A terceira onda (início de 2022) teve alto número de casos, mas menor letalidade, associada à variante Ômicron.
 
 4. Defasagem entre Casos e Mortes
 Existe um atraso de alguns dias a semanas entre o pico de casos e o pico de mortes, refletindo o tempo de progressão da doença.
