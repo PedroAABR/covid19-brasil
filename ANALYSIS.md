@@ -1,4 +1,4 @@
-# Evolução de Casos e Mortes no Brasil
+# 📊 Evolução de Casos e Mortes no Brasil
 ## 🔍 O que foi feito
 Foi gerado um gráfico de linhas utilizando a biblioteca Seaborn para visualizar a evolução temporal da pandemia de COVID-19 no Brasil. As séries temporais utilizadas foram:
 
