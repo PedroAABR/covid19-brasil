@@ -1,6 +1,6 @@
 # 📊 Evolução de Casos e Mortes no Brasil
 
-<img src="reports/Evolução de Casos e Mortes no Brasil.png" width="800"/>
+<img src="reports/Evolução de Casos e Mortes no Brasil.png"/>
 
 
 ## 🔍 O que foi feito
