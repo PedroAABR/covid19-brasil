@@ -83,7 +83,7 @@ A partir de meados de 2022 até o início de 2023, a taxa de vacinação pratica
 
 # 📊 Vacinação X Mortes no Brasil
 
-<img src="VacinaçãoXMortes.png"/>
+<img src="reports/VacinaçãoXMortes.png"/>
 
 ## 🔍 O que foi feito
 Foi gerado um gráfico de linha com a comparação temporal entre:
