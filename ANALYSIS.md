@@ -47,37 +47,30 @@ As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmi
 <img src="reports/Pessoas Totalmente Vacinadas por 100 habitantes.png"/>
 
 ## 🔍 O que foi feito
-Foi construído um gráfico de linha com a métrica:
+Foi criado um gráfico de linha apresentando a evolução da métrica:
 
-- **people_fully_vaccinated_per_hundred:** representa o número de pessoas com o esquema vacinal completo a cada 100 habitantes, equivalente ao percentual da população totalmente vacinada.
+- **people_fully_vaccinated_per_hundred:** percentual da população brasileira com vacinação completa contra a COVID-19, por 100 habitantes.
 
-Foram tratados dados ausentes e interpoladas lacunas visíveis para manter a visualização consistente sempre que possível, sem comprometer a integridade da análise.
+O eixo horizontal representa o tempo (datas entre o início de 2021 até o início de 2023), enquanto o eixo vertical indica o percentual de cobertura vacinal. A visualização tem como objetivo monitorar a progressão da campanha de vacinação ao longo do tempo.
 
 ## 📈 Principais Insights
-1. **Início e Aceleração da Vacinação**
+1. **Início Lento da Campanha Vacinal (Q1 e Q2 de 2021)**
+Observa-se um crescimento bastante modesto no início da série (janeiro a abril de 2021), indicando que a campanha de vacinação começou de forma lenta — possivelmente devido à limitação de doses disponíveis e priorização por grupos de risco.
 
-- A vacinação começou efetivamente em meados de janeiro de 2021, com crescimento lento nos primeiros meses.
+2. **Aceleração Significativa (Q3 de 2021)**
+A partir de julho de 2021, nota-se uma curva acentuada de crescimento. Esse período marca a ampliação da vacinação para a população adulta em geral, com maior disponibilidade de doses e centros de vacinação.
 
-- A partir do segundo semestre de 2021, observa-se uma aceleração significativa na curva de vacinação.
+3. **Pico de Crescimento e Saturação (Q4 de 2021 a Q2 de 2022)**
+Entre setembro de 2021 e abril de 2022, a cobertura vacinal ultrapassa os 70%, chegando a cerca de 80% da população vacinada com o esquema completo. Após esse ponto, a curva se torna cada vez mais horizontal, indicando uma saturação na adesão vacinal — as pessoas que desejavam se vacinar já o fizeram.
 
-2. **Alta Cobertura Vacinal em 2022**
-
-- O percentual de pessoas totalmente vacinadas ultrapassou 80% da população ao final de 2022 — um dado relevante considerando o tamanho populacional do Brasil.
-
-3. **Falhas e Lacunas nos Dados**
-
-- A série apresenta interrupções e valores ausentes frequentes a partir de 2022, especialmente no ano de 2023, possivelmente por falhas de reporte nos repositórios oficiais.
-
-4. **Fim da Atualização**
-
-- A curva parece interrompida após o início de 2023, indicando que os dados deixaram de ser atualizados ou passaram a ser consolidados de outra forma.
+4. **Estabilização e Estagnação (Após Q2 de 2022)**
+A partir de meados de 2022 até o início de 2023, a taxa de vacinação praticamente não se altera, ficando em torno de 81%–82%. Isso pode indicar resistência vacinal, falta de campanhas ativas, ou barreiras logísticas para vacinação em populações remanescentes.
 
 ## 🧠 Conclusões Gerais
-- A campanha de vacinação brasileira alcançou alta cobertura vacinal em tempo relativamente curto, especialmente no segundo semestre de 2021.
+- A vacinação no Brasil apresentou um ritmo inicial lento, seguido de uma forte aceleração, atingindo níveis elevados de cobertura (acima de 80%) até meados de 2022.
 
-- A adesão da população e a distribuição nacional contribuíram significativamente para a redução dos casos e mortes, como observado em análises anteriores.
+- A curva evidencia um modelo típico de adesão populacional a campanhas massivas, com crescimento exponencial seguido de saturação.
 
-- A presença de falhas na atualização dos dados evidencia a necessidade de sistemas de monitoramento confiáveis em contextos de emergência sanitária.
+- O alcançar de um platô vacinal pode ter sido influenciado por fatores como hesitação vacinal, desinformação ou dificuldades logísticas.
 
-- A ausência de dados atualizados em 2023 compromete o acompanhamento contínuo da vacinação — uma fragilidade recorrente em bases públicas durante crises.
-
+- A curva mostra que, apesar dos desafios iniciais, o Brasil conseguiu vacinar a maior parte da população — o que contribuiu significativamente para o controle da pandemia e redução de mortes a partir da segunda metade de 2021.
