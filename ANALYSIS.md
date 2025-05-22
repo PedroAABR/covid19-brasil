@@ -483,3 +483,43 @@ Foi construído um **heatmap (mapa de calor)** com os dados de óbitos por COVID
 - O heatmap permite uma **visualização comparativa e temporal clara** dos impactos da pandemia por estado.
 - A análise reforça que **a disseminação e a letalidade da COVID-19 não foram uniformes** no território brasileiro.
 - Ferramentas como essa auxiliam na **identificação de padrões sazonais**, surtos localizados e **demandas específicas por região**, sendo úteis para o planejamento de **respostas sanitárias regionais**.
+
+# 📊 Ocupação Total Média de Leitos Hospitalares por COVID-19 no Tempo
+
+<img src="reports/Ocupacao_Total_Leitos_COVID.png"/>
+
+## 🔍 O que foi feito
+
+Foi criado um gráfico de linha com a **ocupação hospitalar total por COVID-19**, somando os leitos de:
+
+- **UTI (`ocupacaoCovidUti`)**
+- **Clínicos (`ocupacaoCovidCli`)**
+
+A soma foi agrupada por data (`_created_at`) e a média diária foi calculada:
+
+- `ocupacao_total = ocupacaoCovidUti + ocupacaoCovidCli`
+- Agrupamento com `.groupby('_created_at').mean()`
+
+- **Eixo X**: Datas (2021 a 2025)  
+- **Eixo Y**: Média diária de leitos ocupados por COVID-19 (total)
+
+## 📈 Principais Insights
+
+1. **Período crítico entre 2021 e meados de 2022**  
+   - O gráfico mostra **ocupação hospitalar significativa** nesse período, refletindo as principais ondas da pandemia e o estresse sobre o sistema de saúde.
+
+2. **Pico anômalo em 2022**  
+   - Há um **valor extremamente elevado e isolado** que ultrapassa 20.000 leitos — este ponto provavelmente é um **outlier**, sugerindo erro de entrada ou consolidação de dados acumulados.
+
+3. **Redução e estabilização após 2022**  
+   - A partir de meados de 2022, a ocupação média de leitos cai de forma acentuada, mantendo-se **próxima de zero até 2025**, alinhado à contenção da pandemia.
+
+4. **Importância da média para suavizar variações diárias**  
+   - O uso da média permite reduzir flutuações e visualizar a **tendência geral da ocupação**, destacando momentos de maior pressão hospitalar.
+
+## 🧠 Conclusões Gerais
+
+- A evolução da ocupação de leitos hospitalares reflete de forma clara os **momentos mais críticos da pandemia**, sendo um indicador essencial para a gestão da capacidade hospitalar.
+- O pico anormal identificado deve ser **revisto ou tratado como outlier** para não comprometer a análise.
+- A redução sustentada da ocupação após 2022 evidencia o **impacto da vacinação, protocolos clínicos e fim das grandes ondas epidêmicas**.
+
