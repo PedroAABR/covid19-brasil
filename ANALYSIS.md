@@ -558,3 +558,39 @@ A legenda foi ativada para exibir a sigla de cada estado, bem como a escala do t
 - Estados com alta letalidade e baixa incidência devem ser observados quanto à **subnotificação** ou **fragilidade hospitalar**.
 - A análise comparativa entre estados destaca a **importância da testagem, cobertura vacinal, e infraestrutura hospitalar** como fatores determinantes dos desfechos da pandemia.
 
+# 📊 Evolução da Vacinação vs Novas Mortes por COVID-19 no Brasil
+
+<img src="reports/Vacinacao_vs_Mortes_DuploEixo.png"/>
+
+## 🔍 O que foi feito
+
+Foi criado um **gráfico de linha com dois eixos Y (dupla escala)** para comparar a evolução temporal entre:
+
+- **Percentual de pessoas totalmente vacinadas** (`people_fully_vaccinated_per_hundred`)
+- **Número de novas mortes por dia (suavizado)** (`new_deaths_smoothed`)
+
+Utilizou-se a função `twinx()` do Matplotlib para traçar duas variáveis com escalas distintas:
+
+- **Eixo Y à esquerda (verde):** vacinação em % da população
+- **Eixo Y à direita (vermelho):** mortes diárias suavizadas (média móvel de 7 dias)
+
+## 📈 Principais Insights
+
+1. **A vacinação começou apenas em 2021**
+   - Durante 2020 e início de 2021, a linha verde permanece próxima de zero, enquanto as mortes aumentam progressivamente.
+
+2. **Picos de mortalidade antes do avanço vacinal**
+   - Dois grandes picos de novas mortes ocorreram antes de a cobertura vacinal atingir níveis significativos, especialmente no primeiro semestre de 2021.
+
+3. **Queda acentuada de mortes com o avanço da vacinação**
+   - A partir de meados de 2021, a curva verde (vacinação) sobe fortemente e a curva vermelha (mortes) passa a cair.
+   - Este movimento **sugere uma forte correlação negativa** entre vacinação e mortalidade.
+
+4. **Estabilização em 2022–2023**
+   - Com cerca de **80% da população vacinada**, as mortes atingem patamares muito baixos, mantendo-se próximas de zero até 2024.
+
+## 🧠 Conclusões Gerais
+
+- O gráfico fornece uma **visualização clara do impacto da vacinação em massa** na redução de óbitos por COVID-19 no Brasil.
+- A estrutura de duplo eixo é essencial para representar variáveis de **escalas diferentes, mas temporalmente relacionadas**.
+- Essa visualização reforça, com dados, a importância da vacinação como **principal estratégia de mitigação da pandemia**, sendo um recurso de alto valor para relatórios técnicos, científicos e institucionais.
