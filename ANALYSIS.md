@@ -55,15 +55,19 @@ O eixo horizontal representa o tempo (datas entre o início de 2021 até o iníc
 
 ## 📈 Principais Insights
 1. **Início Lento da Campanha Vacinal (Q1 e Q2 de 2021)**
+
 Observa-se um crescimento bastante modesto no início da série (janeiro a abril de 2021), indicando que a campanha de vacinação começou de forma lenta — possivelmente devido à limitação de doses disponíveis e priorização por grupos de risco.
 
 2. **Aceleração Significativa (Q3 de 2021)**
+ 
 A partir de julho de 2021, nota-se uma curva acentuada de crescimento. Esse período marca a ampliação da vacinação para a população adulta em geral, com maior disponibilidade de doses e centros de vacinação.
 
 3. **Pico de Crescimento e Saturação (Q4 de 2021 a Q2 de 2022)**
+   
 Entre setembro de 2021 e abril de 2022, a cobertura vacinal ultrapassa os 70%, chegando a cerca de 80% da população vacinada com o esquema completo. Após esse ponto, a curva se torna cada vez mais horizontal, indicando uma saturação na adesão vacinal — as pessoas que desejavam se vacinar já o fizeram.
 
 4. **Estabilização e Estagnação (Após Q2 de 2022)**
+   
 A partir de meados de 2022 até o início de 2023, a taxa de vacinação praticamente não se altera, ficando em torno de 81%–82%. Isso pode indicar resistência vacinal, falta de campanhas ativas, ou barreiras logísticas para vacinação em populações remanescentes.
 
 ## 🧠 Conclusões Gerais
