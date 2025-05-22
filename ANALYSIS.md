@@ -204,5 +204,41 @@ A área sombreada em torno da linha principal sugere que há variabilidade nas e
 
 - Esta análise é fundamental para reforçar a importância de vigilância epidemiológica robusta, planejamento de resposta a crises e transparência na notificação de dados de saúde pública.
 
+# 📊 Mudança na Mobilidade para Locais de Trabalho no Brasil
+
+<img src="reports/Mobilidade para Locais de Trabalho.png"/>
+
+## 🔍 O que foi feito
+
+Foi gerado um gráfico de linha temporal com os dados de variação percentual na mobilidade de pessoas em direção aos **locais de trabalho**, com base nos dados do Google Mobility Reports. A métrica representa a mudança percentual em relação à linha de base (período pré-pandêmico).
+
+- **Variável analisada**: `workplaces_percent_change_from_baseline`  
+- **Período**: De janeiro de 2020 até o final de 2022  
+- **Eixo X**: Datas diárias  
+- **Eixo Y**: Variação percentual na mobilidade
+
+## 📈 Principais Insights
+
+1. **Queda Acentuada no Início da Pandemia (março–abril de 2020)**  
+   - A mobilidade caiu drasticamente, atingindo **valores abaixo de -60%**, resultado direto do início do isolamento social e do fechamento de escritórios e comércios.
+
+2. **Oscilações e Recuperações Parciais em 2020 e 2021**  
+   - A partir do segundo semestre de 2020, há **oscilações semanais**, mas a mobilidade segue abaixo de zero, com **quedas mais intensas em finais de semana e feriados**.
+   - Em 2021, nota-se uma **recuperação gradual**, embora ainda com quedas eventuais associadas a novas ondas da pandemia e medidas restritivas.
+
+3. **Recuperação Acelerada a partir de 2022**  
+   - A mobilidade volta a valores **próximos ou acima de 0%**, indicando o **retorno progressivo das atividades presenciais**, especialmente após a vacinação em massa.
+   - Picos positivos acima de 40% evidenciam **reabertura econômica** e flexibilização das medidas de contenção.
+
+4. **Manutenção de Padrões Semanais**  
+   - As variações negativas regulares indicam a **redução da mobilidade em finais de semana**, característica típica dos padrões de comportamento, e que se manteve mesmo após o retorno gradual.
+
+## 🧠 Conclusões Gerais
+
+- A mobilidade para locais de trabalho foi **diretamente impactada pelas medidas de isolamento social**, especialmente no início da pandemia.
+- O gráfico mostra como o **comportamento da população foi alterado** ao longo do tempo, com fases de retração e posterior recuperação.
+- A partir de 2022, observa-se uma **normalização gradual da mobilidade**, compatível com o avanço da vacinação, diminuição dos casos graves e **reabertura do mercado de trabalho presencial**.
+- A análise dessa métrica é essencial para compreender os efeitos sociais e econômicos da pandemia e pode ser usada para **correlação com dados de contágio e produtividade**.
+
 
 
