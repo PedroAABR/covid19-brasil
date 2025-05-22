@@ -594,3 +594,46 @@ Utilizou-se a função `twinx()` do Matplotlib para traçar duas variáveis com 
 - O gráfico fornece uma **visualização clara do impacto da vacinação em massa** na redução de óbitos por COVID-19 no Brasil.
 - A estrutura de duplo eixo é essencial para representar variáveis de **escalas diferentes, mas temporalmente relacionadas**.
 - Essa visualização reforça, com dados, a importância da vacinação como **principal estratégia de mitigação da pandemia**, sendo um recurso de alto valor para relatórios técnicos, científicos e institucionais.
+
+# 📊 Mudança na Mobilidade por Tipo de Local (2020–2022)
+
+<img src="reports/Mobilidade_por_Tipo_de_Local.png"/>
+
+## 🔍 O que foi feito
+
+Foi criado um gráfico de linha que mostra a **variação percentual na mobilidade** dos brasileiros ao longo do tempo, por tipo de local, com base nos dados do Google Community Mobility Reports.
+
+- Os dados de mobilidade de 2020, 2021 e 2022 foram unificados.
+- As séries representam a **variação em relação à linha de base pré-pandemia (0%)**.
+- A mobilidade foi agrupada por data e a **média diária nacional** foi calculada para cada categoria.
+
+As seguintes categorias foram renomeadas para facilitar a leitura:
+
+| Categoria Original            | Nome Usado na Legenda         |
+|------------------------------|-------------------------------|
+| `retail_and_recreation`      | Lojas e Lazer                 |
+| `grocery_and_pharmacy`       | Mercados e Farmácias          |
+| `parks`                      | Parques                       |
+| `transit_stations`           | Estações de Transporte        |
+| `workplaces`                 | Locais de Trabalho            |
+| `residential`                | Residências                   |
+
+## 📈 Principais Insights
+
+1. **Queda abrupta da mobilidade em 2020**
+   - As categorias ligadas à circulação externa (`Lojas e Lazer`, `Parques`, `Estações`) tiveram redução superior a **50%** no início da pandemia.
+
+2. **Aumento na permanência residencial**
+   - `Residências` foi a única categoria com **aumento na mobilidade**, indicando maior permanência em casa, especialmente entre março e junho de 2020.
+
+3. **Recuperação parcial e oscilante em 2021 e 2022**
+   - Com o passar do tempo, observa-se **recuperação gradual** na mobilidade fora de casa, mas com oscilações periódicas — reflexo de **fins de semana, feriados, novas ondas e flexibilizações**.
+
+4. **Mobilidade em Mercados e Farmácias manteve-se positiva**
+   - Essa categoria foi a mais resiliente, chegando a superar a linha de base em diversos momentos, demonstrando sua **essencialidade durante a pandemia**.
+
+## 🧠 Conclusões Gerais
+
+- A mobilidade da população foi **fortemente impactada pela pandemia**, com diferentes padrões por tipo de local.
+- O gráfico revela a **aderência inicial às medidas de isolamento social** e uma **progressiva retomada da circulação** com o avanço da vacinação e flexibilização das restrições.
+- Análises como esta são úteis para entender o comportamento coletivo e apoiar **tomadas de decisão em políticas públicas de mobilidade, saúde e segurança.**
