@@ -4,43 +4,45 @@
 
 
 ## 🔍 O que foi feito
-Foi gerado um gráfico de linhas com as séries temporais:
+Foi gerado um gráfico de linhas com séries temporais referentes à evolução da pandemia no Brasil:
 
-- **new_cases_smoothed:** novos casos diários suavizados (média móvel de 7 dias);
+- **new_cases_smoothed:** número de novos casos de COVID-19 suavizados por média móvel (7 dias);
 
-- **new_deaths_smoothed:** novas mortes diárias suavizadas (média móvel de 7 dias).
+- **new_deaths_smoothed:** número de novas mortes diárias também suavizadas pela média móvel.
 
-A suavização tem como objetivo reduzir ruídos de variações diárias e destacar tendências consistentes.
+A suavização das séries reduz o efeito de flutuações diárias e melhora a visualização de tendências e padrões ao longo do tempo.
 
 ## 📈 Principais Insights
-1. **Múltiplas Ondas da Pandemia**
-   
-É possível observar claramente três grandes ondas de infecção, com seus respectivos picos de novos casos e mortes.
+1. **Múltiplas Ondas de Contágio**
 
-   - A segunda onda (início de 2021) foi a mais letal, coincidente com a variante Gama.
+O gráfico evidencia diversas ondas epidêmicas no Brasil entre 2020 e 2023:
 
-   - A terceira onda (início de 2022) teve alto número de casos, mas menor letalidade, associada à variante Ômicron.
+   - A primeira onda, em meados de 2020, mostra um crescimento progressivo de casos e mortes.
 
-2. **Defasagem entre Casos e Mortes**
-   
-Existe um atraso de alguns dias a semanas entre o pico de casos e o pico de mortes, refletindo o tempo de progressão da doença.
+   - A segunda onda, no primeiro semestre de 2021, foi mais intensa e letal, associada à variante Gama (P.1), originária de Manaus.
 
-3. **Efeito da Vacinação**
-   
-A partir de meados de 2021, observa-se uma desaceleração clara na curva de mortes, mesmo com novos aumentos de casos — sugerindo efeito positivo da vacinação em massa.
+   - A terceira onda, no início de 2022, apresenta o maior pico de novos casos — fortemente vinculado à variante Ômicron. Apesar do recorde de infecções, as mortes não acompanharam na mesma 
+     proporção, o que indica menor letalidade ou maior proteção vacinal.
 
-4. **Estabilização no Final do Período**
-   
-As curvas tendem à estabilidade em 2022, refletindo possível controle pandêmico com vacinação, imunidade coletiva e maior preparo do sistema de saúde.
+2. **Descompasso entre Casos e Mortes**
 
+Observa-se um atraso temporal entre os picos de casos e os de mortes, geralmente de algumas semanas. Esse comportamento é esperado devido à progressão natural da doença e tempo de agravamento clínico.
+
+3. **Impacto da Vacinação (Pós-2021)**
+
+Após o segundo semestre de 2021, nota-se que os picos de mortes diminuem consideravelmente, mesmo diante de novas ondas de contágio — evidenciando o impacto positivo da vacinação em massa.
+
+4. **Tendência de Queda e Estabilização**
+
+A partir do final de 2022 até 2024, a curva de novos casos e, principalmente, de mortes tende à estabilidade e baixos valores. Isso pode indicar o controle epidêmico, possivelmente sustentado por imunidade populacional (vacinal e natural) e mudanças no comportamento coletivo.
 ## 🧠 Conclusões Gerais
-- O Brasil enfrentou momentos críticos ao longo da pandemia, refletidos em picos sucessivos de infecção e mortalidade.
+- A evolução da pandemia no Brasil apresenta padrões típicos de surtos sucessivos, impulsionados por novas variantes e oscilações no controle sanitário.
 
-- A análise temporal evidencia a importância de políticas públicas, vacinação e intervenções precoces.
+- A segunda onda foi a mais crítica em termos de mortalidade, exigindo respostas urgentes do sistema de saúde.
 
-- O impacto das variantes é perceptível na variação entre letalidade e contágio.
+- A vacinação se consolidou como um divisor de águas, reduzindo expressivamente os óbitos mesmo diante de surtos com maior número de infectados.
 
-- A similaridade entre as curvas de casos e mortes reafirma a necessidade de medidas preventivas em estágios iniciais das ondas.
+- A curva demonstra a importância da vigilância contínua, políticas públicas ágeis e investimento em ciência, vacinação e comunicação pública durante crises sanitárias.
 
 # 📊 Evolução da Vacinação no Brasil
 
