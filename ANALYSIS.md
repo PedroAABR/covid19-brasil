@@ -272,4 +272,37 @@ Foi gerado um gráfico de linha temporal com os dados de variação percentual n
 - A presença de estados de diferentes regiões no ranking indica que a pandemia **afetou o país de forma desigual e complexa**, exigindo respostas específicas.
 - Estados com **alta taxa de letalidade** devem ser objeto de atenção especial em **políticas públicas, reforço em testagem e estrutura hospitalar**.
 
+# 📊 Correlação entre Vacinação e Novas Mortes por COVID-19 no Brasil
+
+<img src="reports/Correlacao_Vacinacao_Mortes.png"/>
+
+## 🔍 O que foi feito
+
+Foi gerado um **gráfico de dispersão com linha de tendência (regressão linear)** utilizando a biblioteca Seaborn para avaliar a correlação entre:
+
+- **`people_fully_vaccinated_per_hundred`**: percentual da população totalmente vacinada.
+- **`new_deaths_smoothed`**: número de novas mortes diárias suavizadas (média móvel de 7 dias).
+
+Os dados foram filtrados com `dropna()` para remover registros com valores ausentes.
+
+## 📈 Principais Insights
+
+1. **Correlação Negativa Clara**
+   - O gráfico mostra uma **forte relação inversa**: à medida que a vacinação aumenta, o número de mortes suavizadas tende a diminuir significativamente.
+
+2. **Fase Crítica com Baixa Vacinação**
+   - Observa-se que nos pontos onde a vacinação está abaixo de 20%, há **altas taxas de mortalidade** (acima de 2000 mortes por dia).
+
+3. **Estabilização após Cobertura Vacinal Alta**
+   - A partir de aproximadamente **60% da população vacinada**, o número de novas mortes atinge patamares muito baixos (próximos a zero), demonstrando **efetividade da vacinação** em massa.
+
+4. **Alinhamento com Evidências Científicas**
+   - O padrão observado é compatível com diversos estudos e relatórios internacionais que associam **aumento da cobertura vacinal à queda nas mortes por COVID-19**.
+
+## 🧠 Conclusões Gerais
+
+- A análise evidencia de forma quantitativa a **efetividade da vacinação** na redução da mortalidade por COVID-19 no Brasil.
+- A correlação negativa forte entre vacinação e mortes serve como **base para políticas públicas e campanhas de imunização**.
+- Gráficos como este ajudam a **reforçar a confiança pública na vacinação**, com base em evidências concretas e dados reais.
+
 
