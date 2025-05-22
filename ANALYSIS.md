@@ -305,4 +305,37 @@ Os dados foram filtrados com `dropna()` para remover registros com valores ausen
 - A correlação negativa forte entre vacinação e mortes serve como **base para políticas públicas e campanhas de imunização**.
 - Gráficos como este ajudam a **reforçar a confiança pública na vacinação**, com base em evidências concretas e dados reais.
 
+# 📊 Casos Mensais de COVID-19 no Brasil
+
+<img src="reports/Casos_Mensais_COVID_BR.png"/>
+
+## 🔍 O que foi feito
+
+Foi gerado um gráfico de linha com base na agregação mensal dos casos de COVID-19 no Brasil, utilizando:
+
+- **`brasil['mes_ano'] = brasil['date'].dt.to_period('M')`** para extrair o mês e ano da data.
+- Os casos diários foram somados por mês com `groupby('mes_ano')['new_cases'].sum()`.
+
+- **Eixo X**: Meses (de 2020 até início de 2024)  
+- **Eixo Y**: Total de novos casos por mês
+
+## 📈 Principais Insights
+
+1. **Crescimento Gradual em 2020 com Múltiplos Picos**  
+   - O número de casos aumenta de forma progressiva entre abril e dezembro de 2020, com **picos intermediários** indicando ondas regionais de contágio.
+
+2. **Primeiro Grande Pico em Março de 2021**  
+   - O primeiro pico expressivo ocorre em **março de 2021**, com mais de 2 milhões de casos — coincidindo com a **segunda onda da pandemia** no Brasil.
+
+3. **Pico Histórico em Janeiro de 2022**  
+   - O maior número mensal de casos foi registrado em **janeiro de 2022**, ultrapassando **3,5 milhões** — este período corresponde à disseminação em massa da **variante Ômicron**, de alta transmissibilidade.
+
+4. **Queda Contínua e Estabilização Pós-Vacinação**  
+   - A partir do segundo semestre de 2022, os casos mensais começam a **cair drasticamente** e seguem baixos até 2024, com valores próximos a zero.
+
+## 🧠 Conclusões Gerais
+
+- A evolução mensal dos casos no Brasil reflete **ondas epidêmicas distintas**, marcadas por **novas variantes**, **relaxamento de medidas sanitárias** e **ações de contenção variáveis** entre os estados.
+- A **vacinação em massa** teve papel crucial na queda dos casos a partir de 2022, mesmo diante de variantes altamente transmissíveis.
+- A análise mensal facilita a visualização de **tendências de longo prazo** e é útil para avaliar o impacto de intervenções políticas e sanitárias em diferentes momentos da pandemia.
 
