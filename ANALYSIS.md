@@ -120,3 +120,49 @@ Em 2022, mesmo com surtos identificáveis em casos (não exibidos aqui), os pico
 
 - A continuidade da vigilância epidemiológica e reforço de doses podem ser fundamentais para manter os níveis de mortalidade baixos em futuras ondas epidêmicas.
 
+# 📊 Ocupação Média de UTIs por COVID-19
+
+<img src="reports/VacinaçãoXMortes.png"/>
+
+## 🔍 O que foi feito
+Foi gerado um gráfico de barras com a série temporal da variável:
+
+- **ocupacao_hospital.groupby('_created_at')['ocupacaoCovidUti'].mean().dropna():** representando a média diária de leitos ocupados em Unidades de Terapia Intensiva por pacientes com COVID.
+
+O eixo horizontal representa as datas (_created_at), entre 2020 e 2025, enquanto o eixo vertical indica o número médio de leitos ocupados por dia.
+
+## 📈 Principais Insights
+1. **Baixa Ocupação no Início da Pandemia**
+
+Até meados de 2020, observa-se uma ocupação baixa e instável, refletindo os primeiros estágios da pandemia, quando os casos ainda estavam se espalhando gradualmente.
+
+2. **Picos Críticos em 2021 e 2022**
+
+Entre 2021 e 2022, há picos intensos de ocupação com valores que ultrapassam 200 e até 1000 leitos ocupados em determinados dias. Esses picos correspondem aos períodos mais críticos da pandemia:
+
+   - O primeiro grande pico coincide com a segunda onda da COVID-19 no Brasil, impulsionada pela variante Gama.
+
+   - O segundo pico, ainda mais acentuado, está possivelmente associado à variante Ômicron, com alta transmissibilidade.
+
+3. **Queda Progressiva Pós-2022**
+
+A partir do segundo semestre de 2022, observa-se uma queda consistente da ocupação média de UTIs, que se mantém próxima de zero ao longo de 2023 e 2024. Essa tendência está fortemente associada:
+
+   - ao avanço da vacinação em massa;
+
+   - à maior capacidade de resposta hospitalar;
+
+   - e à redução da gravidade clínica nas novas variantes.
+
+4. **Valores Atípicos/Anômalos**
+
+Os dois picos acima de 1000 chamam atenção e podem indicar erros de registro ou consolidação de dados acumulados em um único dia, devendo ser investigados como possíveis outliers.
+
+## 🧠 Conclusões Gerais
+- O gráfico evidencia a pressão extrema sobre o sistema de saúde brasileiro durante os períodos críticos da pandemia, com destaque para 2021 e início de 2022.
+
+- A forte queda na ocupação hospitalar em UTIs após o início da vacinação reflete o impacto positivo da imunização, da testagem precoce e da eficácia dos tratamentos clínicos.
+
+- A estabilização da ocupação em níveis próximos de zero em 2023–2024 sugere efetivo controle epidemiológico, tornando a pandemia uma condição endêmica.
+
+- Indicadores como esse são fundamentais para subsidiar decisões políticas e estratégias de contenção, além de dimensionar a capacidade hospitalar em futuras emergências sanitárias.
