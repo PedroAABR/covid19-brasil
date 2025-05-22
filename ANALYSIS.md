@@ -169,7 +169,7 @@ Os dois picos acima de 1000 chamam atenção e podem indicar erros de registro o
 
 # 📊 Excesso de Mortalidade por Semana Epidemiológica no Brasil
 
-<img src="reports/Evolução de Casos e Mortes no Brasil.png"/>
+<img src="reports/ExcessoMortalidadeSemana.png"/>
 
 ## 🔍 O que foi feito
 Foi gerado um gráfico de linha com faixa de variação (intervalo de confiança ou desvio padrão), apresentando o excesso de mortalidade semanal ao longo do ano de 2020. A variável principal representada é:
