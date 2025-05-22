@@ -523,3 +523,38 @@ A soma foi agrupada por data (`_created_at`) e a média diária foi calculada:
 - O pico anormal identificado deve ser **revisto ou tratado como outlier** para não comprometer a análise.
 - A redução sustentada da ocupação após 2022 evidencia o **impacto da vacinação, protocolos clínicos e fim das grandes ondas epidêmicas**.
 
+# 📊 Taxa de Letalidade vs Casos por 100 mil Habitantes por Estado (com escala de população)
+
+<img src="reports/Letalidade_vs_Casos_Populacao.png"/>
+
+## 🔍 O que foi feito
+
+Foi criado um **gráfico de dispersão com bolhas** (bubble chart) para analisar a relação entre:
+
+- **Casos acumulados por 100 mil habitantes (`confirmed_per_100k_inhabitants`)**
+- **Taxa de letalidade (`death_rate`)**
+- **População estimada (`estimated_population`) como escala do tamanho das bolhas**
+- **Cor de cada ponto representa um estado brasileiro (`state`)**
+
+A legenda foi ativada para exibir a sigla de cada estado, bem como a escala do tamanho da bolha associada à população.
+
+## 📈 Principais Insights
+
+1. **Relação inversa entre casos e letalidade em alguns estados**
+   - Estados com maior número de casos por 100k habitantes tendem a apresentar **menor taxa de letalidade**, sugerindo maior capacidade de testagem, diagnóstico precoce ou maior transparência nos dados.
+
+2. **Estados com menor incidência, mas maior letalidade**
+   - Alguns estados com **menor número de casos por 100k** exibem letalidades elevadas (>3%), o que pode indicar **subnotificação de casos leves** ou **sistema de saúde fragilizado**.
+
+3. **Destaque para estados com maior população**
+   - Bolhas maiores, como **SP, RJ e MG**, chamam atenção não só pelo volume de casos, mas pela **escala de impacto na saúde pública**.
+
+4. **Distribuição heterogênea entre estados**
+   - A dispersão dos pontos mostra que **não houve padrão único de impacto da COVID-19** no Brasil — cada estado enfrentou a pandemia com **dinâmicas e resultados distintos**.
+
+## 🧠 Conclusões Gerais
+
+- A combinação de incidência (casos), letalidade e população torna este gráfico uma ferramenta poderosa para **compreensão regional da pandemia**.
+- Estados com alta letalidade e baixa incidência devem ser observados quanto à **subnotificação** ou **fragilidade hospitalar**.
+- A análise comparativa entre estados destaca a **importância da testagem, cobertura vacinal, e infraestrutura hospitalar** como fatores determinantes dos desfechos da pandemia.
+
