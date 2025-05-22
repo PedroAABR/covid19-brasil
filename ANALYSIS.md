@@ -339,3 +339,71 @@ Foi gerado um gráfico de linha com base na agregação mensal dos casos de COVI
 - A **vacinação em massa** teve papel crucial na queda dos casos a partir de 2022, mesmo diante de variantes altamente transmissíveis.
 - A análise mensal facilita a visualização de **tendências de longo prazo** e é útil para avaliar o impacto de intervenções políticas e sanitárias em diferentes momentos da pandemia.
 
+# 📊 Top 5 Estados com Mais Casos e Óbitos Acumulados de COVID-19
+
+<img src="reports/Top5_Casos_Obitos_Estados.png"/>
+
+## 🔍 O que foi feito
+
+Foi criado um gráfico de barras sobrepostas para visualizar os **cinco estados brasileiros com maior número de casos confirmados de COVID-19**, juntamente com o número absoluto de óbitos acumulados. Os dados foram agregados com:
+
+- `casos_estados.groupby('state')[['confirmed', 'deaths']].sum()`
+
+- **Eixo X**: Siglas dos estados  
+- **Eixo Y**: Número acumulado de casos e óbitos  
+- As barras azuis representam os **casos confirmados**, enquanto as barras vermelhas mostram os **óbitos** sobrepostos aos casos.
+
+## 📈 Principais Insights
+
+1. **São Paulo lidera com ampla margem**  
+   - O estado de **SP** apresenta disparadamente o maior número de casos confirmados e óbitos, refletindo sua grande população e densidade urbana elevada.
+
+2. **Outros estados do Sul e Sudeste também se destacam**  
+   - **RS**, **MG**, **PR** e **SC** aparecem na sequência, todos com elevados números absolutos de casos e mortes, possivelmente associados a melhor capacidade de testagem e registro.
+
+3. **Desproporção entre Casos e Óbitos é visível**  
+   - A diferença de escala entre as barras (óbitos em vermelho sendo visualmente pequenas) demonstra que a **letalidade relativa é baixa**, apesar dos números absolutos de óbitos serem elevados.
+
+4. **SP concentra grande parte do impacto nacional**  
+   - A magnitude dos dados em São Paulo reforça a necessidade de **ações específicas de contenção e mitigação em centros urbanos altamente populosos**.
+
+## 🧠 Conclusões Gerais
+
+- O gráfico evidencia que **os estados mais populosos e economicamente ativos** concentram a maior parte dos casos e mortes da pandemia.
+- É essencial considerar tanto os números absolutos quanto os **indicadores relativos (como taxa de letalidade)** para avaliar corretamente o impacto regional.
+- Essas análises auxiliam na priorização de recursos e no planejamento de **respostas sanitárias proporcionais à magnitude do problema**.
+
+# 📊 Boxplot de Casos Novos por Mês no Brasil
+
+<img src="reports/Boxplot_Casos_Mensais_COVID.png"/>
+
+## 🔍 O que foi feito
+
+Foi criado um **gráfico de boxplot** para analisar a distribuição mensal dos **casos novos de COVID-19** no Brasil ao longo do tempo. Para isso:
+
+- Foi extraído o mês e ano da coluna de data com `brasil['ano_mes'] = brasil['date'].dt.to_period('M')`.
+- Foram removidas as entradas nulas da coluna `new_cases`.
+- Utilizou-se o `sns.boxplot` para representar a **variação e a presença de outliers** em cada mês.
+
+- **Eixo X**: Meses (formato ano-mês)
+- **Eixo Y**: Número de novos casos diários por mês
+
+## 📈 Principais Insights
+
+1. **Alta variação entre meses críticos da pandemia**  
+   - Períodos como **março/abril de 2021** e **janeiro de 2022** apresentam **maior dispersão**, com vários outliers e ampla faixa interquartil, indicando picos e instabilidade nos registros diários.
+
+2. **Outliers indicam dias com picos extremos de casos**  
+   - Muitos pontos fora das caixas superiores representam **explosões pontuais** de contágio, especialmente durante a disseminação de novas variantes.
+
+3. **Redução de casos e dispersão a partir de 2023**  
+   - A partir de meados de 2022 e especialmente em 2023, observa-se **redução significativa tanto da mediana quanto da variabilidade** — evidência da estabilização do cenário pandêmico.
+
+4. **Padrões sazonais e oscilações mensais**  
+   - O gráfico mostra que os casos não foram uniformes ao longo do tempo, sendo afetados por **sazonalidade, medidas restritivas, vacinação e novas variantes**.
+
+## 🧠 Conclusões Gerais
+
+- O boxplot é uma excelente ferramenta para **visualizar a variabilidade** dos dados ao longo do tempo, especialmente em situações de alta flutuação como a pandemia de COVID-19.
+- A análise destaca **momentos críticos da pandemia**, permitindo a identificação de **meses com maiores instabilidades e surtos**.
+- A estabilização dos casos a partir de 2023 reforça os efeitos positivos das **ações de saúde pública e imunização em massa**.
