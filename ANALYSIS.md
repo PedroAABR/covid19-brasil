@@ -447,3 +447,39 @@ A média móvel é uma técnica estatística usada para **suavizar ruídos** e d
 - O gráfico demonstra o **impacto direto das variantes** e da **vacinação em massa**, refletido na queda de mortes mesmo em momentos de alta transmissão.
 - A análise reforça a importância de **respostas rápidas nas primeiras semanas de aumento dos casos**, dado o intervalo observado até o crescimento das mortes.
 
+# 📊 Mapa de Calor: Evolução Semanal de Óbitos por COVID-19 por Estado (2020)
+
+<img src="reports/Heatmap_Obitos_Semanais_Estados.png"/>
+
+## 🔍 O que foi feito
+
+Foi construído um **heatmap (mapa de calor)** com os dados de óbitos por COVID-19 em cada estado brasileiro ao longo das **semanas epidemiológicas de 2020**, utilizando:
+
+- `pivot_table()` para transformar os dados no formato de matriz:
+  - **Index**: `state` (sigla do estado)
+  - **Colunas**: `epidemiological_week_2020` (1 a 53)
+  - **Valores**: `new_deaths_covid19` (soma semanal por estado)
+
+- A paleta de cores `Reds` foi utilizada para representar o volume de mortes:
+  - Tons mais claros = menor número de óbitos
+  - Tons mais escuros = maior número de óbitos
+
+## 📈 Principais Insights
+
+1. **SP e RJ concentram os maiores picos**
+   - Os estados de **São Paulo** e **Rio de Janeiro** apresentam os quadrantes mais escuros, indicando os **maiores números absolutos de óbitos semanais** durante boa parte do ano.
+
+2. **Início da mortalidade crítica entre semanas 17 e 23**
+   - A maioria dos estados começou a registrar **aumento significativo de óbitos entre as semanas 17 e 23**, alinhado ao avanço nacional da primeira onda da pandemia.
+
+3. **Desigualdade regional no impacto**
+   - Regiões como Norte e Nordeste (ex: AM, CE, PE) também mostram **períodos intensos**, porém com padrões distintos de duração e intensidade comparados ao Sudeste.
+
+4. **Duração prolongada da crise em grandes centros**
+   - Estados mais populosos apresentam **períodos mais longos com intensidade alta**, indicando **maior pressão sobre o sistema de saúde**.
+
+## 🧠 Conclusões Gerais
+
+- O heatmap permite uma **visualização comparativa e temporal clara** dos impactos da pandemia por estado.
+- A análise reforça que **a disseminação e a letalidade da COVID-19 não foram uniformes** no território brasileiro.
+- Ferramentas como essa auxiliam na **identificação de padrões sazonais**, surtos localizados e **demandas específicas por região**, sendo úteis para o planejamento de **respostas sanitárias regionais**.
