@@ -240,5 +240,36 @@ Foi gerado um gráfico de linha temporal com os dados de variação percentual n
 - A partir de 2022, observa-se uma **normalização gradual da mobilidade**, compatível com o avanço da vacinação, diminuição dos casos graves e **reabertura do mercado de trabalho presencial**.
 - A análise dessa métrica é essencial para compreender os efeitos sociais e econômicos da pandemia e pode ser usada para **correlação com dados de contágio e produtividade**.
 
+# 📊 Top 10 Estados com Maior Taxa de Letalidade por COVID-19
+
+<img src="reports/Top10_Taxa_Letalidade.png"/>
+
+## 🔍 O que foi feito
+
+- Foram utilizados os dados da base `casos_estados`, considerando **apenas a última entrada (mais recente)** de cada estado.
+- Entradas agregadas, como `'TOTAL'`, foram removidas, bem como registros com valores nulos de taxa de letalidade.
+- A métrica analisada foi:
+  - **Taxa de Letalidade (`death_rate`) = mortes acumuladas / casos acumulados**
+- O gráfico exibe os 10 estados com os **maiores índices de letalidade** registrados até a data final do conjunto de dados.
+
+## 📈 Principais Insights
+
+1. **Rio de Janeiro (RJ) mantém a liderança isolada**
+   - Com uma taxa próxima a **3,5%**, o estado apresenta o maior risco proporcional de morte entre os infectados.
+
+2. **Presença de estados de diferentes regiões**
+   - Além do RJ e SP, aparecem estados do **Nordeste (MA, PE, AL, CE)**, **Norte (AM, PA)** e **Centro-Oeste (MT, GO)**, demonstrando a **dispersão nacional da gravidade da pandemia**.
+
+3. **Estados com menor número de casos podem ter taxa inflacionada**
+   - Estados com menos testagem ou menor volume de casos tendem a apresentar **letalidade artificialmente elevada**, pois casos leves não são registrados com precisão.
+
+4. **Letalidade alta nem sempre reflete sistema colapsado**
+   - Pode estar associada a **subnotificação, dificuldade de acesso ao diagnóstico precoce** ou à **falta de infraestrutura hospitalar em regiões interioranas**.
+
+## 🧠 Conclusões Gerais
+
+- A taxa de letalidade é um importante **indicador da severidade da pandemia**, e sua análise por estado permite **identificar vulnerabilidades regionais**.
+- A presença de estados de diferentes regiões no ranking indica que a pandemia **afetou o país de forma desigual e complexa**, exigindo respostas específicas.
+- Estados com **alta taxa de letalidade** devem ser objeto de atenção especial em **políticas públicas, reforço em testagem e estrutura hospitalar**.
 
 
