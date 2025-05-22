@@ -80,3 +80,43 @@ A partir de meados de 2022 até o início de 2023, a taxa de vacinação pratica
 - O alcançar de um platô vacinal pode ter sido influenciado por fatores como hesitação vacinal, desinformação ou dificuldades logísticas.
 
 - A curva mostra que, apesar dos desafios iniciais, o Brasil conseguiu vacinar a maior parte da população — o que contribuiu significativamente para o controle da pandemia e redução de mortes a partir da segunda metade de 2021.
+
+# 📊 Vacinação X Mortes no Brasil
+
+<img src="VacinaçãoXMortes.png"/>
+
+## 🔍 O que foi feito
+Foi gerado um gráfico de linha com a comparação temporal entre:
+
+- **people_vaccinated_per_hundred:** percentual da população brasileira vacinada (ao menos uma dose);
+
+- **new_deaths_smoothed:** número de novas mortes diárias por COVID-19, suavizadas por média móvel (7 dias).
+
+O gráfico possibilita observar a correlação temporal entre o avanço da vacinação e a redução na mortalidade.
+
+## 📈 Principais Insights
+1. **Vacinação Inicia Após Primeiras Ondas**
+
+A curva de vacinação inicia-se no começo de 2021, quando o país já havia enfrentado duas grandes ondas de mortes, com picos expressivos antes mesmo de qualquer cobertura vacinal relevante.
+
+2. **Redução de Mortes com Aumento da Vacinação**
+
+A partir do momento em que a população vacinada ultrapassa 20%–40%, nota-se uma redução progressiva e consistente no número de mortes, mesmo com a presença de novos picos de casos (observados em análises anteriores).
+
+3. **Efeito da Imunização em Massa**
+
+A fase de maior crescimento da curva de vacinação coincide com a queda mais acentuada da mortalidade, especialmente no segundo semestre de 2021 — evidenciando um efeito protetivo direto da imunização.
+
+4. **Picos Posteriores com Menor Letalidade**
+
+Em 2022, mesmo com surtos identificáveis em casos (não exibidos aqui), os picos de mortes são notadamente menores — sinalizando possível dissociação entre infecção e letalidade devido à vacinação, variantes menos agressivas (como a Ômicron), e maior preparo clínico.
+
+## 🧠 Conclusões Gerais
+- O gráfico corrobora a eficácia das vacinas na prevenção de mortes, sendo um indicativo robusto do impacto positivo da imunização em massa.
+
+- A inversão de tendência entre as curvas (subida da vacinação e queda de mortes) reforça a necessidade de campanhas públicas bem estruturadas e políticas de saúde baseadas em evidências.
+
+- Este tipo de análise pode ser um instrumento de comunicação estratégica em saúde pública para combater hesitação vacinal, utilizando dados visuais para demonstrar impactos concretos.
+
+- A continuidade da vigilância epidemiológica e reforço de doses podem ser fundamentais para manter os níveis de mortalidade baixos em futuras ondas epidêmicas.
+
