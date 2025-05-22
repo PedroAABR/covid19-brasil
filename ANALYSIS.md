@@ -122,7 +122,7 @@ Em 2022, mesmo com surtos identificáveis em casos (não exibidos aqui), os pico
 
 # 📊 Ocupação Média de UTIs por COVID-19
 
-<img src="reports/VacinaçãoXMortes.png"/>
+<img src="reports/OcupaçãoMédiaUTI.png"/>
 
 ## 🔍 O que foi feito
 Foi gerado um gráfico de barras com a série temporal da variável:
