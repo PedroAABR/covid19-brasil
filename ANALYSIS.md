@@ -407,3 +407,43 @@ Foi criado um **gráfico de boxplot** para analisar a distribuição mensal dos 
 - O boxplot é uma excelente ferramenta para **visualizar a variabilidade** dos dados ao longo do tempo, especialmente em situações de alta flutuação como a pandemia de COVID-19.
 - A análise destaca **momentos críticos da pandemia**, permitindo a identificação de **meses com maiores instabilidades e surtos**.
 - A estabilização dos casos a partir de 2023 reforça os efeitos positivos das **ações de saúde pública e imunização em massa**.
+
+# 📊 Média Móvel de Casos e Mortes (7 dias) no Brasil
+
+<img src="reports/Media_Movel_Casos_Mortes_7d.png"/>
+
+## 🔍 O que foi feito
+
+Foi criado um gráfico de linha com a **média móvel de 7 dias** para suavizar as flutuações diárias nos dados de:
+
+- **`new_cases`** → armazenado em `media_movel_casos`
+- **`new_deaths`** → armazenado em `media_movel_mortes`
+
+A média móvel é uma técnica estatística usada para **suavizar ruídos** e destacar tendências consistentes nos dados ao longo do tempo.
+
+- **Eixo X**: Datas (2020 a 2024)  
+- **Eixo Y**: Número de casos e mortes por dia (média dos 7 dias anteriores)
+
+## 📈 Principais Insights
+
+1. **Visualização mais clara das tendências pandêmicas**
+   - A suavização por média móvel reduz o ruído diário e permite **identificar com precisão os períodos de alta transmissão** e mortalidade.
+
+2. **Três grandes ondas de infecção**
+   - O gráfico revela claramente três picos principais:
+     - **Início de 2021** (associado à variante Gama)
+     - **Início de 2022** (maior pico de casos, com a variante Ômicron)
+     - **Ondas menores ao longo de 2022–2023**, com menor impacto em mortes.
+
+3. **Descolamento entre picos de casos e mortes**
+   - Nota-se uma **defasagem entre os picos**: o aumento nos casos é seguido por um aumento nas mortes com atraso de algumas semanas — comportamento típico de doenças infecciosas.
+
+4. **Redução acentuada a partir de 2023**
+   - Após o segundo semestre de 2022, as curvas de casos e mortes **caem significativamente**, mantendo-se próximas de zero até 2024 — indicando controle da pandemia.
+
+## 🧠 Conclusões Gerais
+
+- A utilização da média móvel de 7 dias é essencial para **interpretar corretamente os dados epidemiológicos**, eliminando distorções de fim de semana e feriados.
+- O gráfico demonstra o **impacto direto das variantes** e da **vacinação em massa**, refletido na queda de mortes mesmo em momentos de alta transmissão.
+- A análise reforça a importância de **respostas rápidas nas primeiras semanas de aumento dos casos**, dado o intervalo observado até o crescimento das mortes.
+
