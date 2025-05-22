@@ -166,3 +166,43 @@ Os dois picos acima de 1000 chamam atenção e podem indicar erros de registro o
 - A estabilização da ocupação em níveis próximos de zero em 2023–2024 sugere efetivo controle epidemiológico, tornando a pandemia uma condição endêmica.
 
 - Indicadores como esse são fundamentais para subsidiar decisões políticas e estratégias de contenção, além de dimensionar a capacidade hospitalar em futuras emergências sanitárias.
+
+# 📊 Excesso de Mortalidade por Semana Epidemiológica no Brasil
+
+<img src="reports/Evolução de Casos e Mortes no Brasil.png"/>
+
+## 🔍 O que foi feito
+Foi gerado um gráfico de linha com faixa de variação (intervalo de confiança ou desvio padrão), apresentando o excesso de mortalidade semanal ao longo do ano de 2020. A variável principal representada é:
+
+- **mortes_estados['deaths_total_2020'] - mortes_estados['deaths_total_2019']:** diferença entre o número de óbitos observados e o número de óbitos esperados, estimado a partir de médias históricas para cada semana epidemiológica.
+
+O eixo horizontal representa a semana epidemiológica (1 a 53), enquanto o eixo vertical mostra a quantidade acumulada de óbitos excedentes.
+
+## 📈 Principais Insights
+1. **Crescimento Gradual Inicial (Semanas 1–18)**
+
+Até a 18ª semana, os valores de óbitos em excesso permanecem baixos e relativamente estáveis, com pequena variação — indicando que ainda não havia impacto significativo da COVID-19 nos registros de mortalidade.
+
+2. **Aumento Acelerado (Semanas 19–30)**
+
+A partir da 19ª semana, observa-se um crescimento exponencial no excesso de mortes, atingindo cerca de 3.000 óbitos excedentes por volta da 30ª semana. Esse período coincide com o avanço mais agressivo da pandemia no Brasil durante o primeiro semestre de 2020.
+
+3. **Manutenção em Alta (Semanas 30–50)**
+
+Mesmo com alguma desaceleração, os óbitos em excesso continuam crescendo de forma constante, ultrapassando 7.000 mortes excedentes até a 50ª semana. Isso indica um impacto persistente e elevado na mortalidade geral do país.
+
+4. **Faixa de Incerteza Considerável**
+
+A área sombreada em torno da linha principal sugere que há variabilidade nas estimativas semanais, o que pode ser devido a diferenças regionais, atrasos na notificação ou incertezas no modelo de expectativa histórica.
+
+## 🧠 Conclusões Gerais
+- O gráfico demonstra com clareza o efeito devastador da pandemia de COVID-19 no Brasil em 2020, com milhares de mortes a mais do que o esperado em condições normais.
+
+- A métrica de excesso de mortalidade é crucial para mensurar o impacto real de crises sanitárias, inclusive considerando mortes indiretas (ex: sobrecarga hospitalar, falta de atendimento, subnotificação).
+
+- A aceleração a partir da 20ª semana é compatível com a explosão dos casos e mortes reportadas oficialmente, confirmando a correlação entre a disseminação do vírus e o aumento expressivo da mortalidade.
+
+- Esta análise é fundamental para reforçar a importância de vigilância epidemiológica robusta, planejamento de resposta a crises e transparência na notificação de dados de saúde pública.
+
+
+
