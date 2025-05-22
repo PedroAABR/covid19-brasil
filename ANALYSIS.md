@@ -6,9 +6,9 @@
 ## 🔍 O que foi feito
 Foi gerado um gráfico de linhas com séries temporais referentes à evolução da pandemia no Brasil:
 
-- **new_cases_smoothed:** número de novos casos de COVID-19 suavizados por média móvel (7 dias);
+- `new_cases_smoothed:` número de novos casos de COVID-19 suavizados por média móvel (7 dias);
 
-- **new_deaths_smoothed:** número de novas mortes diárias também suavizadas pela média móvel.
+- `new_deaths_smoothed:` número de novas mortes diárias também suavizadas pela média móvel.
 
 A suavização das séries reduz o efeito de flutuações diárias e melhora a visualização de tendências e padrões ao longo do tempo.
 
@@ -51,7 +51,7 @@ A partir do final de 2022 até 2024, a curva de novos casos e, principalmente, d
 ## 🔍 O que foi feito
 Foi criado um gráfico de linha apresentando a evolução da métrica:
 
-- **people_fully_vaccinated_per_hundred:** percentual da população brasileira com vacinação completa contra a COVID-19, por 100 habitantes.
+- `people_fully_vaccinated_per_hundred:` percentual da população brasileira com vacinação completa contra a COVID-19, por 100 habitantes.
 
 O eixo horizontal representa o tempo (datas entre o início de 2021 até o início de 2023), enquanto o eixo vertical indica o percentual de cobertura vacinal. A visualização tem como objetivo monitorar a progressão da campanha de vacinação ao longo do tempo.
 
@@ -88,9 +88,9 @@ A partir de meados de 2022 até o início de 2023, a taxa de vacinação pratica
 ## 🔍 O que foi feito
 Foi gerado um gráfico de linha com a comparação temporal entre:
 
-- **people_vaccinated_per_hundred:** percentual da população brasileira vacinada (ao menos uma dose);
+- `people_vaccinated_per_hundred:` percentual da população brasileira vacinada (ao menos uma dose);
 
-- **new_deaths_smoothed:** número de novas mortes diárias por COVID-19, suavizadas por média móvel (7 dias).
+- `new_deaths_smoothed:` número de novas mortes diárias por COVID-19, suavizadas por média móvel (7 dias).
 
 O gráfico possibilita observar a correlação temporal entre o avanço da vacinação e a redução na mortalidade.
 
@@ -127,7 +127,7 @@ Em 2022, mesmo com surtos identificáveis em casos (não exibidos aqui), os pico
 ## 🔍 O que foi feito
 Foi gerado um gráfico de barras com a série temporal da variável:
 
-- **ocupacao_hospital.groupby('_created_at')['ocupacaoCovidUti'].mean().dropna():** representando a média diária de leitos ocupados em Unidades de Terapia Intensiva por pacientes com COVID.
+- `ocupacao_hospital.groupby('_created_at')['ocupacaoCovidUti'].mean().dropna():` representando a média diária de leitos ocupados em Unidades de Terapia Intensiva por pacientes com COVID.
 
 O eixo horizontal representa as datas (_created_at), entre 2020 e 2025, enquanto o eixo vertical indica o número médio de leitos ocupados por dia.
 
@@ -174,7 +174,7 @@ Os dois picos acima de 1000 chamam atenção e podem indicar erros de registro o
 ## 🔍 O que foi feito
 Foi gerado um gráfico de linha com faixa de variação (intervalo de confiança ou desvio padrão), apresentando o excesso de mortalidade semanal ao longo do ano de 2020. A variável principal representada é:
 
-- **mortes_estados['deaths_total_2020'] - mortes_estados['deaths_total_2019']:** diferença entre o número de óbitos observados e o número de óbitos esperados, estimado a partir de médias históricas para cada semana epidemiológica.
+- `mortes_estados['deaths_total_2020'] - mortes_estados['deaths_total_2019']:` diferença entre o número de óbitos observados e o número de óbitos esperados, estimado a partir de médias históricas para cada semana epidemiológica.
 
 O eixo horizontal representa a semana epidemiológica (1 a 53), enquanto o eixo vertical mostra a quantidade acumulada de óbitos excedentes.
 
