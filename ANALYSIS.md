@@ -2,11 +2,25 @@
 
 Este documento apresenta uma visão aprofundada das análises realizadas nos Datasets relacionado a Covid19 no Brasil.
 
-# 📊 Evolução de Casos e Mortes por COVID-19 no Brasil
+---
+
+
+## 📚 Sumário
+
+- [🔹 Ocupação de UTIs](#ocupa%C3%A7%C3%A3o-de-utis)
+- [🔹 Excesso de Mortalidade](#excesso-de-mortalidade)
+- [🔹 Mobilidade Urbana](#mobilidade-urbana)
+- [🔹 Letalidade por Estado](#letalidade-por-estado)
+- [📈 Resultados e Insights](#📈-resultados-e-insights)
+- [🧠 Conclusões e Recomendações](#🧠-conclus%C3%B5es-e-recomenda%C3%A7%C3%B5es)
+
+---
+
+## 📊 Evolução de Casos e Mortes por COVID-19 no Brasil
 
 <img src="reports/Evolução de Casos e Mortes no Brasil.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um gráfico de linha com as séries temporais suavizadas por **média móvel de 7 dias**, a fim de reduzir ruídos diários e destacar tendências mais confiáveis ao longo do tempo.
 
@@ -17,7 +31,7 @@ As variáveis utilizadas foram:
 
 O gráfico cobre o período de 2020 até 2024.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Múltiplas ondas da pandemia**
    - É possível observar **três grandes picos de infecção**, cada um com características distintas:
@@ -34,7 +48,7 @@ O gráfico cobre o período de 2020 até 2024.
 4. **Estabilização em 2023**
    - As curvas mantêm níveis baixos ao longo de 2023 e 2024, indicando **controle pandêmico duradouro**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A análise temporal permite identificar claramente **os momentos mais críticos da pandemia no Brasil**.
 - A defasagem entre casos e mortes reforça a importância de **ações precoces** diante de novos surtos.
@@ -42,11 +56,11 @@ O gráfico cobre o período de 2020 até 2024.
 - O gráfico serve como base sólida para decisões em saúde pública, estudos comparativos e avaliação de políticas sanitárias ao longo do tempo.
 
 
-# 📊 Pessoas Totalmente Vacinadas por 100 Habitantes no Brasil
+## 📊 Pessoas Totalmente Vacinadas por 100 Habitantes no Brasil
 
 <img src="reports/Pessoas Totalmente Vacinadas por 100 habitantes.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um gráfico de linha para acompanhar a evolução da **proporção da população brasileira com esquema vacinal completo** contra a COVID-19 ao longo do tempo.
 
@@ -56,7 +70,7 @@ A métrica utilizada foi:
 
 O gráfico cobre o período de início da vacinação em 2021 até o fim das atualizações em 2023.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Início gradual da vacinação (1º semestre de 2021)**
    - O avanço inicial foi lento, refletindo dificuldades logísticas e de disponibilidade de vacinas no início da campanha.
@@ -70,17 +84,17 @@ O gráfico cobre o período de início da vacinação em 2021 até o fim das atu
 4. **Queda na atualização dos dados a partir de 2023**
    - A curva se mantém estática, indicando o **encerramento ou desaceleração da coleta de dados** de vacinação pública.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A vacinação contra a COVID-19 no Brasil atingiu **níveis elevados de cobertura**, sendo um dos principais fatores na redução dos óbitos observada em anos seguintes.
 - O gráfico confirma o **êxito da campanha nacional**, embora ressalte a importância de **manter campanhas de reforço** e combate à desinformação.
 - Esta visualização é essencial para contextualizar outras análises (como mortalidade e mobilidade) e reforça o **papel central da vacinação** no controle da pandemia.
 
-# 📊 Vacinação vs Mortes por COVID-19 no Brasil
+## 📊 Vacinação vs Mortes por COVID-19 no Brasil
 
 <img src="reports/VacinaçãoXMortes.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi gerado um gráfico de linha para comparar, ao longo do tempo:
 
@@ -89,7 +103,7 @@ Foi gerado um gráfico de linha para comparar, ao longo do tempo:
 
 Ambas as séries foram traçadas no mesmo eixo para **visualizar a relação temporal entre o avanço da vacinação e a redução de óbitos**.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Picos de mortalidade ocorreram antes do avanço vacinal**
    - Em especial durante o 1º semestre de 2021, quando a vacinação ainda era incipiente, o Brasil enfrentou seu **maior pico de óbitos diários**.
@@ -103,17 +117,17 @@ Ambas as séries foram traçadas no mesmo eixo para **visualizar a relação tem
 4. **Estabilização em 2023**
    - A curva de vacinação se estabiliza, e a mortalidade permanece próxima de zero — indicando um **efeito duradouro da imunização em massa**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - O gráfico evidencia a **correlação inversa entre vacinação e mortalidade**, com quedas consistentes de óbitos à medida que a população vacinada aumentava.
 - Serve como **base visual forte para políticas públicas de vacinação** e campanhas de conscientização.
 - A análise reforça a **efetividade da vacina como instrumento de mitigação da pandemia**, mesmo diante de novas variantes e ondas posteriores.
 
-# 📊 Ocupação Média de Leitos de UTI por COVID-19 no Brasil
+## 📊 Ocupação Média de Leitos de UTI por COVID-19 no Brasil
 
 <img src="reports/OcupaçãoMédiaUTI.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi construído um gráfico de linha com base na série temporal da variável:
 
@@ -121,7 +135,7 @@ Foi construído um gráfico de linha com base na série temporal da variável:
 
 Os dados foram agrupados por data (`_created_at`) e a **média diária nacional** foi calculada. A série abrange o período de 2021 a 2025.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Aumento abrupto na ocupação de UTIs entre 2021 e início de 2022**
    - Observa-se um crescimento acentuado da média de ocupação durante os picos pandêmicos, **atingindo valores críticos de sobrecarga hospitalar**.
@@ -138,17 +152,17 @@ Os dados foram agrupados por data (`_created_at`) e a **média diária nacional*
 4. **Estabilização próxima a zero em 2023–2025**
    - Após os picos críticos, a ocupação média de UTIs cai para patamares mínimos, indicando **controle efetivo da pandemia**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - O gráfico revela de forma clara os momentos de **maior pressão sobre os hospitais**, refletindo a gravidade dos surtos da COVID-19.
 - A redução consistente da ocupação de UTIs acompanha o avanço da vacinação e melhora do manejo clínico.
 - A análise reforça a importância de **monitorar a capacidade hospitalar** durante pandemias e crises sanitárias, permitindo antecipação de colapsos.
 
-# 📊 Excesso de Mortalidade por Semana Epidemiológica no Brasil (2020)
+## 📊 Excesso de Mortalidade por Semana Epidemiológica no Brasil (2020)
 
 <img src="reports/ExcessoMortalidadeSemana.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi gerado um gráfico de linha com base na variável:
 
@@ -158,7 +172,7 @@ Essa métrica permite estimar o **excesso de mortalidade**, isto é, o número d
 
 A análise cobre todas as semanas epidemiológicas do ano de 2020 (semanas 1 a 53).
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Estabilidade nas primeiras semanas**
    - Até a 18ª semana, o excesso de mortalidade é mínimo, indicando **padrão compatível com anos anteriores**.
@@ -172,7 +186,7 @@ A análise cobre todas as semanas epidemiológicas do ano de 2020 (semanas 1 a 5
 4. **Faixa de incerteza nas estimativas**
    - A área sombreada representa o desvio entre regiões ou estados, indicando **variação territorial ou imprecisão nos registros de mortalidade**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - O gráfico demonstra com clareza o **impacto extraordinário da pandemia sobre a mortalidade**, indo além dos óbitos oficialmente atribuídos à COVID-19.
 - A métrica de **excesso de mortalidade** é essencial para capturar:
@@ -180,11 +194,11 @@ A análise cobre todas as semanas epidemiológicas do ano de 2020 (semanas 1 a 5
   - **Mortes indiretas** causadas por colapso do sistema de saúde ou agravamento de outras condições sem atendimento.
 - Essa abordagem é amplamente utilizada em **epidemiologia, saúde pública e auditorias de impacto em crises sanitárias.**
 
-# 📊 Mudança na Mobilidade para Locais de Trabalho no Brasil
+## 📊 Mudança na Mobilidade para Locais de Trabalho no Brasil
 
 <img src="reports/Mobilidade para Locais de Trabalho.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um gráfico de linha com base na métrica:
 
@@ -192,7 +206,7 @@ Foi criado um gráfico de linha com base na métrica:
 
 A série cobre o período de 2020 até o segundo semestre de 2022.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Queda acentuada no início da pandemia (março de 2020)**
    - Observa-se uma **redução superior a -50%**, refletindo o impacto das medidas de isolamento e o crescimento do trabalho remoto no início da crise sanitária.
@@ -209,18 +223,18 @@ A série cobre o período de 2020 até o segundo semestre de 2022.
 4. **Presença de picos negativos recorrentes**
    - As quedas pontuais continuam, evidenciando que, mesmo com a recuperação, há **momentos de retração temporária** no fluxo de trabalhadores.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A análise revela os efeitos diretos da pandemia na **dinâmica do trabalho presencial**, especialmente com a adoção de **home office em larga escala** no Brasil.
 - A mobilidade para locais de trabalho pode servir como **proxy para avaliar retomada econômica**, aderência a medidas de isolamento e mudanças estruturais no mercado de trabalho.
 - O padrão oscilante reforça a importância de combinar essas análises com indicadores de saúde pública e políticas regionais.
 
 
-# 📊 Top 10 Estados com Maior Taxa de Letalidade por COVID-19
+## 📊 Top 10 Estados com Maior Taxa de Letalidade por COVID-19
 
 <img src="reports/Top10_Taxa_Letalidade.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 - Foram utilizados os dados da base `casos_estados`, considerando **apenas a última entrada (mais recente)** de cada estado.
 - Entradas agregadas, como `'TOTAL'`, foram removidas, bem como registros com valores nulos de taxa de letalidade.
@@ -228,7 +242,7 @@ A série cobre o período de 2020 até o segundo semestre de 2022.
   - **Taxa de Letalidade (`death_rate`) = mortes acumuladas / casos acumulados**
 - O gráfico exibe os 10 estados com os **maiores índices de letalidade** registrados até a data final do conjunto de dados.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Rio de Janeiro (RJ) mantém a liderança isolada**
    - Com uma taxa próxima a **3,5%**, o estado apresenta o maior risco proporcional de morte entre os infectados.
@@ -242,17 +256,17 @@ A série cobre o período de 2020 até o segundo semestre de 2022.
 4. **Letalidade alta nem sempre reflete sistema colapsado**
    - Pode estar associada a **subnotificação, dificuldade de acesso ao diagnóstico precoce** ou à **falta de infraestrutura hospitalar em regiões interioranas**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A taxa de letalidade é um importante **indicador da severidade da pandemia**, e sua análise por estado permite **identificar vulnerabilidades regionais**.
 - A presença de estados de diferentes regiões no ranking indica que a pandemia **afetou o país de forma desigual e complexa**, exigindo respostas específicas.
 - Estados com **alta taxa de letalidade** devem ser objeto de atenção especial em **políticas públicas, reforço em testagem e estrutura hospitalar**.
 
-# 📊 Correlação entre Vacinação e Novas Mortes por COVID-19 no Brasil
+## 📊 Correlação entre Vacinação e Novas Mortes por COVID-19 no Brasil
 
 <img src="reports/Correlacao_Vacinacao_Mortes.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi gerado um **gráfico de dispersão com linha de tendência (regressão linear)** utilizando a biblioteca Seaborn para avaliar a correlação entre:
 
@@ -261,7 +275,7 @@ Foi gerado um **gráfico de dispersão com linha de tendência (regressão linea
 
 Os dados foram filtrados com `dropna()` para remover registros com valores ausentes.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Correlação Negativa Clara**
    - O gráfico mostra uma **forte relação inversa**: à medida que a vacinação aumenta, o número de mortes suavizadas tende a diminuir significativamente.
@@ -275,17 +289,17 @@ Os dados foram filtrados com `dropna()` para remover registros com valores ausen
 4. **Alinhamento com Evidências Científicas**
    - O padrão observado é compatível com diversos estudos e relatórios internacionais que associam **aumento da cobertura vacinal à queda nas mortes por COVID-19**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A análise evidencia de forma quantitativa a **efetividade da vacinação** na redução da mortalidade por COVID-19 no Brasil.
 - A correlação negativa forte entre vacinação e mortes serve como **base para políticas públicas e campanhas de imunização**.
 - Gráficos como este ajudam a **reforçar a confiança pública na vacinação**, com base em evidências concretas e dados reais.
 
-# 📊 Casos Mensais de COVID-19 no Brasil
+## 📊 Casos Mensais de COVID-19 no Brasil
 
 <img src="reports/Casos_Mensais_COVID_BR.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi gerado um gráfico de linha com base na agregação mensal dos casos de COVID-19 no Brasil, utilizando:
 
@@ -295,7 +309,7 @@ Foi gerado um gráfico de linha com base na agregação mensal dos casos de COVI
 - **Eixo X**: Meses (de 2020 até início de 2024)  
 - **Eixo Y**: Total de novos casos por mês
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Crescimento Gradual em 2020 com Múltiplos Picos**  
    - O número de casos aumenta de forma progressiva entre abril e dezembro de 2020, com **picos intermediários** indicando ondas regionais de contágio.
@@ -309,17 +323,17 @@ Foi gerado um gráfico de linha com base na agregação mensal dos casos de COVI
 4. **Queda Contínua e Estabilização Pós-Vacinação**  
    - A partir do segundo semestre de 2022, os casos mensais começam a **cair drasticamente** e seguem baixos até 2024, com valores próximos a zero.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A evolução mensal dos casos no Brasil reflete **ondas epidêmicas distintas**, marcadas por **novas variantes**, **relaxamento de medidas sanitárias** e **ações de contenção variáveis** entre os estados.
 - A **vacinação em massa** teve papel crucial na queda dos casos a partir de 2022, mesmo diante de variantes altamente transmissíveis.
 - A análise mensal facilita a visualização de **tendências de longo prazo** e é útil para avaliar o impacto de intervenções políticas e sanitárias em diferentes momentos da pandemia.
 
-# 📊 Top 5 Estados com Mais Casos e Óbitos Acumulados de COVID-19
+## 📊 Top 5 Estados com Mais Casos e Óbitos Acumulados de COVID-19
 
 <img src="reports/Top5_Casos_Obitos_Estados.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um gráfico de barras sobrepostas para visualizar os **cinco estados brasileiros com maior número de casos confirmados de COVID-19**, juntamente com o número absoluto de óbitos acumulados. Os dados foram agregados com:
 
@@ -329,7 +343,7 @@ Foi criado um gráfico de barras sobrepostas para visualizar os **cinco estados 
 - **Eixo Y**: Número acumulado de casos e óbitos  
 - As barras azuis representam os **casos confirmados**, enquanto as barras vermelhas mostram os **óbitos** sobrepostos aos casos.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **São Paulo lidera com ampla margem**  
    - O estado de **SP** apresenta disparadamente o maior número de casos confirmados e óbitos, refletindo sua grande população e densidade urbana elevada.
@@ -343,17 +357,17 @@ Foi criado um gráfico de barras sobrepostas para visualizar os **cinco estados 
 4. **SP concentra grande parte do impacto nacional**  
    - A magnitude dos dados em São Paulo reforça a necessidade de **ações específicas de contenção e mitigação em centros urbanos altamente populosos**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - O gráfico evidencia que **os estados mais populosos e economicamente ativos** concentram a maior parte dos casos e mortes da pandemia.
 - É essencial considerar tanto os números absolutos quanto os **indicadores relativos (como taxa de letalidade)** para avaliar corretamente o impacto regional.
 - Essas análises auxiliam na priorização de recursos e no planejamento de **respostas sanitárias proporcionais à magnitude do problema**.
 
-# 📊 Boxplot de Casos Novos por Mês no Brasil
+## 📊 Boxplot de Casos Novos por Mês no Brasil
 
 <img src="reports/Boxplot_Casos_Mensais_COVID.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um **gráfico de boxplot** para analisar a distribuição mensal dos **casos novos de COVID-19** no Brasil ao longo do tempo. Para isso:
 
@@ -364,7 +378,7 @@ Foi criado um **gráfico de boxplot** para analisar a distribuição mensal dos 
 - **Eixo X**: Meses (formato ano-mês)
 - **Eixo Y**: Número de novos casos diários por mês
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Alta variação entre meses críticos da pandemia**  
    - Períodos como **março/abril de 2021** e **janeiro de 2022** apresentam **maior dispersão**, com vários outliers e ampla faixa interquartil, indicando picos e instabilidade nos registros diários.
@@ -378,17 +392,17 @@ Foi criado um **gráfico de boxplot** para analisar a distribuição mensal dos 
 4. **Padrões sazonais e oscilações mensais**  
    - O gráfico mostra que os casos não foram uniformes ao longo do tempo, sendo afetados por **sazonalidade, medidas restritivas, vacinação e novas variantes**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - O boxplot é uma excelente ferramenta para **visualizar a variabilidade** dos dados ao longo do tempo, especialmente em situações de alta flutuação como a pandemia de COVID-19.
 - A análise destaca **momentos críticos da pandemia**, permitindo a identificação de **meses com maiores instabilidades e surtos**.
 - A estabilização dos casos a partir de 2023 reforça os efeitos positivos das **ações de saúde pública e imunização em massa**.
 
-# 📊 Média Móvel de Casos e Mortes (7 dias) no Brasil
+## 📊 Média Móvel de Casos e Mortes (7 dias) no Brasil
 
 <img src="reports/Media_Movel_Casos_Mortes_7d.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um gráfico de linha com a **média móvel de 7 dias** para suavizar as flutuações diárias nos dados de:
 
@@ -400,7 +414,7 @@ A média móvel é uma técnica estatística usada para **suavizar ruídos** e d
 - **Eixo X**: Datas (2020 a 2024)  
 - **Eixo Y**: Número de casos e mortes por dia (média dos 7 dias anteriores)
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Visualização mais clara das tendências pandêmicas**
    - A suavização por média móvel reduz o ruído diário e permite **identificar com precisão os períodos de alta transmissão** e mortalidade.
@@ -417,17 +431,17 @@ A média móvel é uma técnica estatística usada para **suavizar ruídos** e d
 4. **Redução acentuada a partir de 2023**
    - Após o segundo semestre de 2022, as curvas de casos e mortes **caem significativamente**, mantendo-se próximas de zero até 2024 — indicando controle da pandemia.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A utilização da média móvel de 7 dias é essencial para **interpretar corretamente os dados epidemiológicos**, eliminando distorções de fim de semana e feriados.
 - O gráfico demonstra o **impacto direto das variantes** e da **vacinação em massa**, refletido na queda de mortes mesmo em momentos de alta transmissão.
 - A análise reforça a importância de **respostas rápidas nas primeiras semanas de aumento dos casos**, dado o intervalo observado até o crescimento das mortes.
 
-# 📊 Mapa de Calor: Evolução Semanal de Óbitos por COVID-19 por Estado (2020)
+## 📊 Mapa de Calor: Evolução Semanal de Óbitos por COVID-19 por Estado (2020)
 
 <img src="reports/Heatmap_Obitos_Semanais_Estados.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi construído um **heatmap (mapa de calor)** com os dados de óbitos por COVID-19 em cada estado brasileiro ao longo das **semanas epidemiológicas de 2020**, utilizando:
 
@@ -440,7 +454,7 @@ Foi construído um **heatmap (mapa de calor)** com os dados de óbitos por COVID
   - Tons mais claros = menor número de óbitos
   - Tons mais escuros = maior número de óbitos
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **SP e RJ concentram os maiores picos**
    - Os estados de **São Paulo** e **Rio de Janeiro** apresentam os quadrantes mais escuros, indicando os **maiores números absolutos de óbitos semanais** durante boa parte do ano.
@@ -454,17 +468,17 @@ Foi construído um **heatmap (mapa de calor)** com os dados de óbitos por COVID
 4. **Duração prolongada da crise em grandes centros**
    - Estados mais populosos apresentam **períodos mais longos com intensidade alta**, indicando **maior pressão sobre o sistema de saúde**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - O heatmap permite uma **visualização comparativa e temporal clara** dos impactos da pandemia por estado.
 - A análise reforça que **a disseminação e a letalidade da COVID-19 não foram uniformes** no território brasileiro.
 - Ferramentas como essa auxiliam na **identificação de padrões sazonais**, surtos localizados e **demandas específicas por região**, sendo úteis para o planejamento de **respostas sanitárias regionais**.
 
-# 📊 Ocupação Total Média de Leitos Hospitalares por COVID-19 no Tempo
+## 📊 Ocupação Total Média de Leitos Hospitalares por COVID-19 no Tempo
 
 <img src="reports/Ocupacao_Total_Leitos_COVID.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um gráfico de linha com a **ocupação hospitalar total por COVID-19**, somando os leitos de:
 
@@ -479,7 +493,7 @@ A soma foi agrupada por data (`_created_at`) e a média diária foi calculada:
 - **Eixo X**: Datas (2021 a 2025)  
 - **Eixo Y**: Média diária de leitos ocupados por COVID-19 (total)
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Período crítico entre 2021 e meados de 2022**  
    - O gráfico mostra **ocupação hospitalar significativa** nesse período, refletindo as principais ondas da pandemia e o estresse sobre o sistema de saúde.
@@ -493,17 +507,17 @@ A soma foi agrupada por data (`_created_at`) e a média diária foi calculada:
 4. **Importância da média para suavizar variações diárias**  
    - O uso da média permite reduzir flutuações e visualizar a **tendência geral da ocupação**, destacando momentos de maior pressão hospitalar.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A evolução da ocupação de leitos hospitalares reflete de forma clara os **momentos mais críticos da pandemia**, sendo um indicador essencial para a gestão da capacidade hospitalar.
 - O pico anormal identificado deve ser **revisto ou tratado como outlier** para não comprometer a análise.
 - A redução sustentada da ocupação após 2022 evidencia o **impacto da vacinação, protocolos clínicos e fim das grandes ondas epidêmicas**.
 
-# 📊 Taxa de Letalidade vs Casos por 100 mil Habitantes por Estado (com escala de população)
+## 📊 Taxa de Letalidade vs Casos por 100 mil Habitantes por Estado (com escala de população)
 
 <img src="reports/Letalidade_vs_Casos_Populacao.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um **gráfico de dispersão com bolhas** (bubble chart) para analisar a relação entre:
 
@@ -514,7 +528,7 @@ Foi criado um **gráfico de dispersão com bolhas** (bubble chart) para analisar
 
 A legenda foi ativada para exibir a sigla de cada estado, bem como a escala do tamanho da bolha associada à população.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Relação inversa entre casos e letalidade em alguns estados**
    - Estados com maior número de casos por 100k habitantes tendem a apresentar **menor taxa de letalidade**, sugerindo maior capacidade de testagem, diagnóstico precoce ou maior transparência nos dados.
@@ -528,17 +542,17 @@ A legenda foi ativada para exibir a sigla de cada estado, bem como a escala do t
 4. **Distribuição heterogênea entre estados**
    - A dispersão dos pontos mostra que **não houve padrão único de impacto da COVID-19** no Brasil — cada estado enfrentou a pandemia com **dinâmicas e resultados distintos**.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A combinação de incidência (casos), letalidade e população torna este gráfico uma ferramenta poderosa para **compreensão regional da pandemia**.
 - Estados com alta letalidade e baixa incidência devem ser observados quanto à **subnotificação** ou **fragilidade hospitalar**.
 - A análise comparativa entre estados destaca a **importância da testagem, cobertura vacinal, e infraestrutura hospitalar** como fatores determinantes dos desfechos da pandemia.
 
-# 📊 Evolução da Vacinação vs Novas Mortes por COVID-19 no Brasil
+## 📊 Evolução da Vacinação vs Novas Mortes por COVID-19 no Brasil
 
 <img src="reports/Vacinacao_vs_Mortes_DuploEixo.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um **gráfico de linha com dois eixos Y (dupla escala)** para comparar a evolução temporal entre:
 
@@ -550,7 +564,7 @@ Utilizou-se a função `twinx()` do Matplotlib para traçar duas variáveis com 
 - **Eixo Y à esquerda (verde):** vacinação em % da população
 - **Eixo Y à direita (vermelho):** mortes diárias suavizadas (média móvel de 7 dias)
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **A vacinação começou apenas em 2021**
    - Durante 2020 e início de 2021, a linha verde permanece próxima de zero, enquanto as mortes aumentam progressivamente.
@@ -565,17 +579,17 @@ Utilizou-se a função `twinx()` do Matplotlib para traçar duas variáveis com 
 4. **Estabilização em 2022–2023**
    - Com cerca de **80% da população vacinada**, as mortes atingem patamares muito baixos, mantendo-se próximas de zero até 2024.
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - O gráfico fornece uma **visualização clara do impacto da vacinação em massa** na redução de óbitos por COVID-19 no Brasil.
 - A estrutura de duplo eixo é essencial para representar variáveis de **escalas diferentes, mas temporalmente relacionadas**.
 - Essa visualização reforça, com dados, a importância da vacinação como **principal estratégia de mitigação da pandemia**, sendo um recurso de alto valor para relatórios técnicos, científicos e institucionais.
 
-# 📊 Mudança na Mobilidade por Tipo de Local (2020–2022)
+## 📊 Mudança na Mobilidade por Tipo de Local (2020–2022)
 
 <img src="reports/Mobilidade_por_Tipo_de_Local.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um gráfico de linha que mostra a **variação percentual na mobilidade** dos brasileiros ao longo do tempo, por tipo de local, com base nos dados do Google Community Mobility Reports.
 
@@ -594,7 +608,7 @@ As seguintes categorias foram renomeadas para facilitar a leitura:
 | `workplaces`                 | Locais de Trabalho            |
 | `residential`                | Residências                   |
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Queda abrupta da mobilidade em 2020**
    - As categorias ligadas à circulação externa (`Lojas e Lazer`, `Parques`, `Estações`) tiveram redução superior a **50%** no início da pandemia.
@@ -613,3 +627,54 @@ As seguintes categorias foram renomeadas para facilitar a leitura:
 - A mobilidade da população foi **fortemente impactada pela pandemia**, com diferentes padrões por tipo de local.
 - O gráfico revela a **aderência inicial às medidas de isolamento social** e uma **progressiva retomada da circulação** com o avanço da vacinação e flexibilização das restrições.
 - Análises como esta são úteis para entender o comportamento coletivo e apoiar **tomadas de decisão em políticas públicas de mobilidade, saúde e segurança.**
+
+# 📈 Resultados e Insights
+
+## ✅ Ocupação de UTIs
+- 🏥 Houve **picos intensos de ocupação de leitos de UTI** entre 2021 e início de 2022, com registros que ultrapassaram **1000 internações diárias em algumas datas**.
+- 📉 Após 2022, observa-se **queda significativa na ocupação**, com estabilização em níveis baixos — **efeito esperado do avanço vacinal e controle da pandemia**.
+- ⚠️ A **alta volatilidade em certos períodos** pode refletir falhas de reporte ou concentração de internações em poucos hospitais.
+
+## ✅ Excesso de Mortalidade
+- ⚰️ O **excesso de óbitos em 2020** começa a se intensificar a partir da **20ª semana epidemiológica**, ultrapassando **7000 mortes acumuladas acima da média** ao fim do ano.
+- 🚨 O padrão indica um **impacto significativo da COVID-19 sobre a mortalidade geral**, mesmo sem considerar mortes diretas confirmadas.
+- 📊 Intervalos de confiança sugerem **incerteza nos extremos**, mas a tendência geral é consistente com os momentos mais críticos da pandemia.
+
+## ✅ Mobilidade Urbana
+- 🧭 A mobilidade para locais de trabalho sofreu **reduções acentuadas durante os picos da pandemia** (principalmente entre 2020 e 2021).
+- ↗️ A partir de 2022, houve **recuperação gradual**, com **valores de variação positiva superando os -50% de queda observados no início**.
+- 🔁 Variações semanais com oscilações abruptas indicam **interferência de feriados, lockdowns e políticas estaduais**.
+
+## ✅ Letalidade por Estado
+- ⚠️ Estados como **RJ, SP, MA e AM** apresentaram **taxas de letalidade superiores a 3%**, o que está acima da média nacional.
+- ❗ Disparidades sugerem **problemas estruturais ou demográficos locais**, como **acesso à saúde, idade média da população e subnotificação**.
+- 📍 Ações de saúde pública devem ser **regionalizadas**, priorizando locais com letalidade elevada.
+
+---
+
+# 🧠 Conclusões e Recomendações
+
+- 📊 **A curva de ocupação de UTIs e o excesso de mortalidade confirmam o forte impacto do vírus** entre 2020 e 2022 — com destaque para o **sistema hospitalar em colapso** nos picos.
+- 🧪 **A redução de mobilidade foi efetiva como medida de contenção**, mas sua **eficácia variou regionalmente** — **é necessário melhor coordenação entre entes federativos**.
+- ⚖️ **Estados com maior letalidade requerem políticas específicas** — investimento em infraestrutura, testagem e campanhas educativas.
+- 💡 Acompanhamento de **indicadores indiretos como mobilidade e excesso de mortes** é crucial para análises em contextos de subnotificação.
+- 📍 Reforça-se a importância de **dados abertos, completos e com granularidade suficiente** para subsidiar decisões públicas em tempo real.
+
+---
+
+## 📊 Fonte de Dados
+
+- Our World in Data  
+- OpenDataSUS  
+- Google Mobility Reports  
+- Brasil.IO  
+- Cartórios de Registro Civil
+
+---
+
+## Sobre o Projeto
+
+Este relatório é parte do estudo "**Análise Exploratória da Pandemia de COVID-19 no Brasil**", e complementa os gráficos e scripts disponíveis no repositório do GitHub.  
+Serve como guia interpretativo para apoiar análises técnicas, decisões políticas e compreensão pública dos dados.
+
+---
