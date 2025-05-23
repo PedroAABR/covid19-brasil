@@ -7,12 +7,26 @@ Este documento apresenta uma visão aprofundada das análises realizadas nos Dat
 
 ## 📚 Sumário
 
-- [🔹 Ocupação de UTIs](#ocupa%C3%A7%C3%A3o-de-utis)
-- [🔹 Excesso de Mortalidade](#excesso-de-mortalidade)
-- [🔹 Mobilidade Urbana](#mobilidade-urbana)
-- [🔹 Letalidade por Estado](#letalidade-por-estado)
+- [🔹 Evolução de Casos e Mortes](#📊-evolução-de-casos-e-mortes-por-covid-19-no-brasil)
+- [🔹 Pessoas Totalmente Vacinadas](#📊-pessoas-totalmente-vacinadas-por-100-habitantes-no-brasil)
+- [🔹 Vacinação vs Mortes](#📊-vacinação-vs-mortes-por-covid-19-no-brasil)
+- [🔹 Ocupação de UTIs](#📊-ocupação-média-de-leitos-de-uti-por-covid-19-no-brasil)
+- [🔹 Excesso de Mortalidade](#📊-excesso-de-mortalidade-por-semana-epidemiológica-no-brasil-2020)
+- [🔹 Mobilidade - Locais de Trabalho](#📊-mudança-na-mobilidade-para-locais-de-trabalho-no-brasil)
+- [🔹 Top 10 Estados - Taxa de Letalidade](#📊-top-10-estados-com-maior-taxa-de-letalidade-por-covid-19)
+- [🔹 Correlação: Vacinação vs Mortes](#📊-correlação-entre-vacinação-e-novas-mortes-por-covid-19-no-brasil)
+- [🔹 Casos Mensais](#📊-casos-mensais-de-covid-19-no-brasil)
+- [🔹 Top 5 Estados - Casos e Óbitos](#📊-top-5-estados-com-mais-casos-e-óbitos-acumulados-de-covid-19)
+- [🔹 Boxplot Casos por Mês](#📊-boxplot-de-casos-novos-por-mês-no-brasil)
+- [🔹 Média Móvel Casos e Mortes](#📊-média-móvel-de-casos-e-mortes-7-dias-no-brasil)
+- [🔹 Heatmap de Óbitos por Estado](#📊-mapa-de-calor-evolução-semanal-de-óbitos-por-covid-19-por-estado-2020)
+- [🔹 Ocupação Total de Leitos](#📊-ocupação-total-média-de-leitos-hospitalares-por-covid-19-no-tempo)
+- [🔹 Letalidade vs Casos + População](#📊-taxa-de-letalidade-vs-casos-por-100-mil-habitantes-por-estado-com-escala-de-população)
+- [🔹 Evolução Vacinação vs Mortes (Duplo Eixo)](#📊-evolução-da-vacinação-vs-novas-mortes-por-covid-19-no-brasil)
+- [🔹 Mobilidade por Tipo de Local](#📊-mudança-na-mobilidade-por-tipo-de-local-2020–2022)
 - [📈 Resultados e Insights](#📈-resultados-e-insights)
-- [🧠 Conclusões e Recomendações](#🧠-conclus%C3%B5es-e-recomenda%C3%A7%C3%B5es)
+- [🧠 Conclusões e Recomendações](#🧠-conclusões-e-recomendações)
+
 
 ---
 
