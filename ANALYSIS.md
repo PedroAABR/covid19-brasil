@@ -676,7 +676,7 @@ As seguintes categorias foram renomeadas para facilitar a leitura:
 
 ---
 
-## 📊 Fonte de Dados
+## Fonte de Dados
 
 - Our World in Data  
 - OpenDataSUS  
